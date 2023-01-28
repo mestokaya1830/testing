@@ -1,0 +1,10 @@
+TEST TARIHI: 05/17/2022
+
+1 - Otopark sisteminde tutar inputu aktif ama klaveye yok
+2 - Iade sonrasi musteri bakiyesi musteri nushasinda gozukmuyor
+3 - Son islemler cok yavas bazen "zaman asimi" hatasi donuyor
+4 - Cikis durumunda Internet kontrolu yok(Ornegin internet yokken cikis yapilamiyor mesaji var ama neden?)
+5 - Bilet ile satista slip islem no altinda null degeri var
+
+
+                                             

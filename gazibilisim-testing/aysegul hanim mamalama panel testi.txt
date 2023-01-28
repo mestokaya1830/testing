@@ -1,0 +1,55 @@
+MAMA NOKTALARI-------------------------------------------------
+->Mama Noktasi Ekle Sayfasi
+1 - Ad alan min ve max kontrolu yok
+2 - Aciklama min ve max kontrolu yok
+3 - Konum bos aliyor
+
+->Mama Noktasi Duzenle Sayfasi
+4 - Ad alan min ve max kontrolu yok
+5 - Aciklama min ve max kontrolu yok
+6 - Konum bos aliyor
+
+KULLANICILAR---------------------------------------------------
+->Kullanici Ekle Sayfasi
+7 - Ad min ve max kontrolu yok
+8 - Email format kontrolu yok
+9 - Telefon min ve max kontrolu yok
+10 - Telefon string aliyor
+11 - Dogum gunu bos aliyor
+12 - Sifre min ve max kontrolu yok
+
+->Kullanici Duzenle Sayfasi
+13 - Ad min ve max kontrolu yok
+14 - Email format kontrolu yok
+15 - Telefon min ve max kontrolu yok
+16 - Telefon string aliyor
+17 - Dogum gunu bos aliyor
+18 - Sifre min ve max kontrolu yok
+
+19 - Kullanici Profil Sayfasi yok
+
+ANASAYFA---------------------------------
+Mama Hareketleri ile detaylar uyusmuyor ornegin
+Teknopark 2 nolu Kap 150 hareket gosteriyor detayda bu veriler yok
+
+Console hatalari
+
+Login Sayfasi-------------------------------
+T https://mama.gaziantepbilisim.com.tr/img/logo.png 404
+https://mama.gaziantepbilisim.com.tr/assets/media/svg/illustrations/login-visual-4.svg 404
+https://mama.gaziantepbilisim.com.tr/assets/media/logos/favicon.ico 404
+
+Ana Sayfa--------------------------------------------------------
+favicon500_op.webp:1          GET https://mama.gaziantepbilisim.com.tr/img/favicon500_op.webp 404
+
+Mama Noktalari Ekle Ve Duzenle------------------------------------------------
+plugins.bundle.js?v=7.1.0:49580 Uncaught TypeError: First argument must be a String, HTMLElement, HTMLCollection, or NodeList
+
+Kullanici Ekle Ve Duzenle------------------------------------------------
+plugins.bundle.js?v=7.1.0:49580 Uncaught TypeError: First argument must be a String, HTMLElement, HTMLCollection, or NodeList
+
+
+
+
+
+

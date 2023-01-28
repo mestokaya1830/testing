@@ -1,0 +1,56 @@
+TEST TARIHI: 5/12/2022
+
+LOGIN SAYFASI-----------------------------------------
+1 - Footer da copyright tanimsiz(Kime ait belli degil)
+
+KAMPANYALAR-----------------------------------------------
+->Kampanya Ekle
+2 - Detay alani max-degeri yanlis.300 karekter olmasina ragmen 'En fazla 500 karekter olmalidir' mesaji donuyor.
+3 - Kullanim siniri max degeri var ama belli degil geriye 'Sayi cok yuksek' mesaji donuyor
+
+
+->Hediye Kod Ekle
+
+4 - Uretilecek kod sayisi max degeri 100.000 bu deger girilince donen hata 500 server error
+5 - Baslama tarihi gecmisi aliyor
+
+ETKINLIK-----------------------------------------------------------------
+6 - Etkinlik Tipi Ekle sayfasinda Durum pasif olmasina ragmen "Etkinlikler->Eklinlik Tipi" bolumunde gorunuyor
+7 - Etkinlik->Ekle baslama tarihi gecmisi aliyor
+
+HABERLER----------------------------------------------------------------
+8 - Haberler Tipi Ekle sayfasinda Durum pasif olmasina ragmen "Haberler->Haber Tipi" bolumunde gorunuyor
+
+MEKANLAR-----------------------------------------------------------------
+9 - Mekanlar Tipi Ekle sayfasinda Durum pasif olmasina ragmen "Mekanlar->Mekan Tipi" bolumunde gorunuyor
+10 - Baslik max degeri yok donen hata 500 server error
+
+
+SAGLIK-------------------------------------------------------------------
+11 - Ekle detay bolumunun max kontrolu yok
+
+
+YEMEK-------------------------------------------------------------------
+12 - Ekle detay bolumunun max kontrolu yok
+
+GEZI--------------------------------------------------------------------
+13 - Ekle detay bolumunun max kontrolu yok
+
+HEDIYE-------------------------------------------------------------------
+14 - Hediye-Ekle detay max kontrolu yok bu nedenle kayit yapmiyor
+
+FIRMALAR-----------------------------------------------------------------
+15 - firma->ekle Detay alani max-degeri yanlis.50 karekter olmasina ragmen 'En fazla 500 karekter olmalidir' mesaji donuyor.
+
+UYELERE------------------------------------------------------------------
+16 - Uye->Ekle TC kontrolu yok
+
+DUYURULAR VE BILDIRIM----------------------------------------------------
+17 - Duyurular->Ekle "Mesaj" alalni max kontrolu yok
+18 - Bildirim->Ekle "Mesaj" alani max kontrolu yok 500 server
+
+BILGILER-----------------------------------------------------------------
+20 - Yoneticiler-Ekle Yonetici unique kontrolu yanlis(Olmayan bir email girmeme ragmen var hatasi donuyor)
+21 - Sosyal Medya->Ekle link url format kontrolu yok
+22 - SSS-Ekle Aciklama max kontrolu yok
+

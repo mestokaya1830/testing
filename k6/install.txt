@@ -1,0 +1,2 @@
+1 choco install k6
+go to C:\Program Files\k6 then open cmd and type  = k6 run D:\works\mesto-works\testing\k6\stress.js

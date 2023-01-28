@@ -1,0 +1,26 @@
+TEST TARIHI:06/09/2022
+
+LOGIN-------------------------------------------------------------------
+1 - Telefonu onaylanmamis kullanicilar giris yapmak istediginde "Telefonunuz Onaylayin" mesaji geliyor ama yonlendirme yok.
+2 - Telefon kontrolu aktif sayfa icinde yapilmiyor
+3 - Dogum Tarihi kontrolu yok(Donen mesaj:"Dogum Tarih tarih olmalidir)
+4 - Yas kontrolu yok ornegin dogum tarihi 2022 olabiliyor
+5 - Internet kontrolu yok
+
+
+ANASAYFA-----------------------------------------------------------------
+6 - Karekodu Okutma kontrolu yok (Ornegin Karekodu okuma islemi bitirilmeden geri donulurse basarili mesaji donuyor)
+7 - Yarali Hayvan tanimlama ekraninda Hayvan Turu kontrolu yok.Hersey Yazilabiliyor
+8 - Hayvan Turu alani min-max kontrolu yok
+9 - Deta alani min-max kontrolu yok
+10 - Puanim sayfasinda geri tusu calismiyor(Bilimiyorum belkide boyle tasarlanmistir)
+11 - Ana sayfadaki Mama Kaplari ile Menude ki Mama Kaplari farkli yerlere gidiyor
+
+
+PROFIL-----------------------------------------------------------------------
+12 - Profil de telefon eksik girildiginde "Basarili Telefon 11 karekter olamlidir" mesaji donuyor
+13 - Telefon string aliyor
+14 - Telefon max kontrolu yok
+15 - Profil Ad Soyad alani guncellemede calismiyor(Guncellenmeyecekse pasif yapilabilir)
+16 - Profil Email alani guncellemede calismiyor(Guncellenmeyecekse pasif yapilabilir)
+17 - Profil sifre guncelleme calisiyor ama donuyor bu nedenle geriye bir sonuc vermiyor

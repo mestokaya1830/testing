@@ -1,0 +1,12 @@
+1 composer require pestphp/pest --dev --with-all-dependencies
+2 composer require pestphp/pest-plugin-laravel --dev
+3 php artisan pest:install
+
+run----------------------------------------
+1 .\vendor\bin\pest
+2 .\vendor\bin\pest --init
+3 .\vendor\bin\pest --filter LoginTest
+
+ create-------------------------------------
+1 php artisan pest:test UsersTest
+2 php artisan pest:test UsersTest --unit

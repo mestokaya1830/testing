@@ -1,0 +1,110 @@
+TEST TARIHI: 5/6/2022
+
+ANASAYFA-------------------------------------------------------------------
+1 - Bugun dagitilan puanlar anasayfa da ve uyeler sayfasinda ayni degil
+
+FIRMALAR-------------------------------------------------------------------
+2 -> Firmalar sayfasi console hatasi 
+GET https://gazikadin.gaziantepbilisim.com.tr//upload/company/null 404
+
+->Firma Ekle ve Duzenle
+3 - Adres alani min degeri 3 ayarli max kontrolu yok sql hatasi
+4 - Emil kontrolu yok ve geriye mesaj donmuyor
+5 - Kisa aciklama alani min-3 max-1500 ayarli
+6 - Gorseller gorunmuyor
+
+KAMPANYALAR----------------------------------------------------------------
+->Kampanya Ekle ve Duzenle
+7 - Konum zorunlu degil
+8 - Yayin tarihi gecmise donuk aliyor
+9 - Aciklama alani max kontrolu yok
+10 - Detay alani max kontrolu yok
+
+HEDIYELER-------------------------------------------------------------------
+->Tekli Hediye Kodu Ekle Ve Duzenle
+11 - Kod alani tipi belirsiz manuel giris yapilabiliyor ve min-3 ayarli max ayarli degil sql hatasi
+12 - Kullanim tarihi bitis tarihinden buyuk olabiliyor
+
+->Coklu Hediye Kodu Ekleme
+13 - Kod sayisi max kontrolu yok 1000000000000000000000000000000000000000 sistem timeout
+
+ETKINLIKLER-------------------------------------------------------------------
+->Katilimcilar
+14 - Arama calismiyor
+
+->Etkinlik Ekle ve Duzenle
+15 - Adres alani min-max kontrolu yok
+16 - Baslama,Bitis ve Yayin tarihi ucu esit olabiliyor
+17 - Aciklama alani max kontrolu yok
+
+HABERLER----------------------------------------------------------------------
+->Haber Ekle ve Duzenle
+18 - Yayin tarihi ileri yada geri olabiliyor
+19 - Detay Alani max kontrolu yok
+
+MEKANLAR----------------------------------------------------------------------
+->Mekan Ekle ve Duzenle
+20 - Yayin tarihi ileri olabiliyor
+21 - Aciklama alani max kontrolu yok
+22 - Adres alani max kontrolu yok
+23 - Detay alani max kontrolu yok
+
+HEDIYELER---------------------------------------------------------------------
+->Hediye Ekle ve Duzenle
+24 - Bir kac alan bos birakilirsa kayit yapmiyor
+25 - Baslangic sira eksi deger aliyor
+26 - Bitis sira eksi deger aliyor
+27 - Bitis sira baslangictan kucuk olabiliyor
+28 - Canli siralama sayfasi calismiyor(Isleniyor...)
+29 - Canli siralamada veri yokken Hediye Dagit butonu aktif
+
+VIDEOLAR----------------------------------------------------------------------
+->Video Ekle Calismiyor(hata postToLarge)
+
+UYELERE-----------------------------------------------------------------------
+30 - Arama calismiyor Datatable hatasi
+->Uye Ekle ve Duzenle
+31 - Soyad alani min-max kontrolu yok
+32 - Dogum tarihi yas kontrolu yok ornegin(Dun olabiliyor)
+
+YAG TALEPLERI------------------------------------------------
+33 - Arama calismiyor(Datatable hatasi)
+34 - Duzenle sayfasi yag litre alani eksi deger aliyor sonrasinda ise listede gozukmuyor
+
+DUYURULAR---------------------------------------------------------------------
+->Ekle ve Duzenle Sayfasi
+35 - Ozet ve Icerik alanlarinin max-deger kontrolu yok
+
+->Bildirimler
+36 - Ekle calismiyor hata
+Client error: `POST https://onesignal.com/api/v1/notifications` resulted in a `400 Bad Request`
+response: {"errors":["Please include a case-sensitive header of Authorization:
+Basic \u003cYOUR-REST-API-KEY-HERE\u003e or Bearer (truncated...)
+
+->Onemli Bilgiler Ekle ve Duzenle
+37 - Detay alani max kontrolu yok
+
+TIPLER---------------------------------------------------------------------
+->Mekanlar Ekle ve Duzenle
+38 - Siralama alani eksi deger aliyor
+
+BILGILER-------------------------------------------------------------------
+->Yoneticiler
+->Ekle ve Duzenle
+39 - TC Kontrolu yok
+->Bilgiler Duzenle
+40 - Adres alani min kontrolu yok
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,68 @@
+GIRIS SAYFASI
+1 - Beni hatirla calismiyor
+2 - Logo tiklaniyor ama bir yere gitmiyor
+3 - Sifreme sifirlama linki calismiyor
+
+YENI KAYIT SAYFASI
+4 - Firma adi tek karekter ile kayit yapabiliyor
+5 - Firma yetkili adi tek karekter ile kayit yapabiliyor
+6 - Vergi numarasi alani string aliyor ve tek karekter ile kayit yapabiliyor
+7 - Telefon numara alani string aliyor ve tek karekter ile kayit yapabiliyor
+8 - Adres alani tek karekter ile kayit yapabiliyor
+9 - Firma Web Site alani tek karekter ile kayit yapabiliyor
+10 - Sifremi unuttum linki calismiyor
+11 - Logo tiklaniyor ama bir yere gitmiyor
+
+PANEL SAYFASI
+12 - Sag ustteki tarih ingilizce
+13 - Sosyal medya linkleri calismiyor
+14 - Admin menude dil degisince market sayfasina yonlediriyor(istenen bu degilse hatadir)
+15 - Arama calismiyor
+
+ILAN ISLEMLERI
+16 - Yeni ilan sayfasi calismiyor sql hatasi
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'firm_id' cannot be null 
+(SQL: insert into `publish` (`user_id`, `firm_id`, `name`, `name_en`, `name_ar`, `type`, `country`, `tr`, `en`, `ar`) 
+values (15, ?, ,, ,, ,, 1, Türkiye, ,, ?, ?))
+
+17 - Ilanlar sayfasi datatable ingilizce
+
+UYE ISLEMLERI
+18  - Kullanici biligilerindeki butun alanlar tek karakter ile guncelleme yapiyor
+19 - Email format kontrolu yok dd@com ile aliyor
+20 - Sife degistir alnininda yeni sifre ve sifre tekrari tek karakter ile guncelleme yapiyor
+
+MARKET ISLMELERI 
+21 - Market ekle sayfasi calismiyor sql hatasi
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'ad' cannot be null 
+(SQL: insert into `firms` (`ad`, `vergi`, `telefon`, `eposta`, `adres`, `website`, `kategori`, `ulke`, `sehir`, `postakodu`, `updated_at`, `created_at`) 
+values (?, ?, ?, ?, ?, ?, ?, Afganistan, ?, ?, 2022-03-07 12:41:57, 2022-03-07 12:41:57))
+
+
+FRONTEND
+22 - Ana sayfa arama calismiyor
+23 - Console da default.png hatasi
+24 - Iletisim sayfasi tel alani  string ve tek karekter aliyor
+
+---------------------------------------------------------------------------------
+
+ADMIN SAYFASI
+25 - Admin Panel arama calismiyor
+26 - Panel sayfasinda sagdaki menuden Tum Yayinlar calismiyor Datatable hatasi
+ayni hata soldaki sistem altinda da calismiyor
+27 - Sistem -> Tum Firmalar linki calismiyor datatable hatasi 
+28 - Onay Istekleri -> Uyelik Dogrulama Listele sutunu calismiyor Not Found hatasi
+29 - Market Islemleri -> Market Listesi Yeni Market ekle calismiyor sql hatasi
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'ad' cannot be null (SQL: insert into `firms` 
+(`ad`, `vergi`, `telefon`, `eposta`, `adres`, `website`, `kategori`, `ulke`, `sehir`, `postakodu`, `updated_at`, `created_at`) 
+values (?, ?, ?, ?, ?, ?, ?, Afganistan, ?, ?, 2022-03-07 13:03:27, 2022-03-07 13:03:27))
+30 - Market Islemleri -> Market Listesi Duzenle calismiyor
+31 - Kategori Islemleri -> Yeni Kategori Ekle butonu calismiyor sql hatasi
+
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'tr' cannot be null 
+(SQL: insert into `categories` (`tr`, `en`, `ar`, `parent_id`) values (?, ?, ?, 22))
+
+32 - Kategori Islemleri -> Kategoriler Duzenle butonu calismiyor sql hatasi
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'tr' cannot be null (SQL: update `categories` set `tr` = ? where `id` = 1)
+33 - Kategori Islemleri -> Kategoriler Sil Butonu calismiyor sql hatasi
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'tr' cannot be null (SQL: update `categories` set `tr` = ? where `id` = 1)

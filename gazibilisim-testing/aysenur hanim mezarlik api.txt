@@ -1,0 +1,27 @@
+TEST TARHI:3/24/2022
+
+LOGIN---------------------------------------------
+1 - Sifre Sifirlama linki yok
+2 - Email format kontrolu yok
+3 - Copyright sahipsiz
+
+ADMIN--------------------------------------------
+4 - Sol Menu Logo link var ama calismiyor
+5 - Sag Alt Kosede ki Siteye git linki yeni sayfada Paneli aciyor
+
+HABERLER VE DUYURULAR----------------------------
+->Yayin Ekle
+6 - Baslik alani min-max kontrolu yok
+7 - Aciklama alani min-max kontrolu yok
+->Yayin Duzenle
+8 - Baslik alani min-max kontrolu yok
+9 - Aciklama alani min-max kontrolu yok
+->Yayin Listesi
+10 - Sil butonu calismiyor
+
+KULLANICILAR-----------------------------------
+->Kullanici Ekle
+11 - Ad Soyad alani min-max kontrolu yok
+12 - Email format kontrolu ve min-max kontrolu yok
+
+NOT birden cok konsol hatasi var

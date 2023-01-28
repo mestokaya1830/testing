@@ -1,0 +1,25 @@
+TEST TARHIHI: 06/09/2022
+
+MAMA NOKTALARI------------------------------------------------------------
+Mama Ekle ->
+1 - Ad alani tek karekter girilince 'Bu kayit zaten var" mesaji donuyor.
+2 - Ad alani max kontrolu yok
+3 - Aciklama alani zorunlu degil
+4 - Aciklama alani calismiyor = Call to a member function getType() on null hatasi
+
+Mama Duzenle -> 
+5 - Ad alani alani min-max kontrolu yok
+6 - Aciklama alani alani min-max kontrolu yok
+7 - Konum bos birakilinca  = Call to a member function getType() on null hatasi
+
+MAMA KABI DOLDURMA
+8 - Attempt to read property "name" on null (View: /var/www/vhosts/mama.gaziantepbilisim.com.tr/httpdocs/resources/views/backend/feeding/all.blade.php)
+
+KULLANICILAR----------------------------------------------------------------------------
+Kullanici Ekle ->
+9 - Ad alani min 4 olarak ayarlanmis max ise kontrol edilmemis
+10 - Tarih kontrolu yok
+11 - Resim secilirse Class "Image" not found hatasi
+
+Kullanici Duzenle -> 
+12 - Resim secilirse Class "Image" not found hatasi

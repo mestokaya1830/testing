@@ -1,0 +1,137 @@
+Test Tarihi:3/22/2022
+
+ANASAYFA----------------------------------------------------
+->Console Hatalari
+1 - logo-retina.png:1
+Failed to load resource: the server responded with a status of 404 ()
+2 - cards-icon.png:1
+Failed to load resource: the server responded with a status of 404 ()
+3 - favicon.png:1
+Failed to load resource: the server responded with a status of 404 ()
+
+->Header
+4 - Telefon linki verilmemis
+5 - Email linki verilmemis
+
+->Footer
+6 - Telefon linki verilmemis
+7 - Email linki verilmemis
+8 - Logo link verilmemis
+
+ILETISIM-------------------------------------------------
+9 -  Ad alani min ve max kontrolu yok
+10 - Email format kontrolu ve min-max kontrolu yok
+11 - Telefon alani format kontrolu ve min-max kontrolu yok
+12 - Mesaj alani format kontrolu ve min-max kontrolu yok
+13 - Telefon linki verilmemis
+14 - Email linki verilmemis
+
+BASVURU FORMU
+14 - Yanlis TC girildiginde donen mesaj ("TC KİMLİK NO formatınız yanlış")
+15 - TC dogru ama Dogum Tarihi yanlis ise donen mesaj ("İkametgah adresiniz Gaziantep ili dışındadır.")
+16 - Aile Bilgileri sayfasi Esinin Isyeri Unvani alani min-max kontrolu yok
+17 - Aile Bilgileri sayfasi Esinin isyeri Adresi alani min-max kontrolu yok
+18 - Genel Bilgiler KİRACI İSE KİRA MİKTARI alani eksi deger aliyor min-max kontrolu yok
+19 - Iban Geri Odeme string aliyor
+
+LOGIN---------------------------------------------------------
+20 - Email fomrat ve min-max kontrolu yok
+21 - Sifre min-max kontrolu yok
+22 - Sfire sifirlama linki yok
+
+ADMIN----------------------------------------------------------------
+
+23 - Admin Menu baslik ve logo link var cevap yok
+BASVURULAR------------------------------------
+24 - Arama calismiyor Datatable hatasi
+->Basvuru Ekle
+25 - TC yanlis olunca geriye mesaj donmuyor ve Ekle butonu calismiyor
+26 - Soldaki menulerde yada listede link var ama cevap vermiyor
+
+->Basvuru Duzenle->Fiziksel Pos
+NOT bu alan banka dan cevap bekliyormus ama suanki davranisi asagida verilmistir
+27 - Banka Odeme ID bos aliyor
+28 - Pos Siparis No min-max kontrolu yok
+
+->Basvuru Detay
+29 - Kontrol Aciklama alani min kontrolu yok
+
+ARAMA LISTESI
+30 - Sayfa Datatable hatasi
+
+GENEL--------------------------------------------------------------Sayfa Bos
+
+MESAJLAR---------------------------------------------------------------
+31 - Goruntule cevapla alani min kontrolu yok
+
+PROJELER
+->Proje Ekle
+32 - Proje Adi min kontrolu yok
+33 - Proce Aciklama min-max kontrolu yok
+34 - Proje icerigi bos aliyor
+->Proje Duzenle
+35 - Proje Adi min kontrolu yok
+36 - Proce Aciklama min-max kontrolu yok
+37 - Proje icerigi bos aliyor
+->Oda Ekle
+38 - Ad alani min kontrolu yok
+39 - Basvuru Ucreti string aliyor slq hatasi
+40 - Proje Sil butonu calismiyor
+
+IADE TALEPLERI----------------------------------------------
+->Iade Talebi Olustur
+41 - Basvuru alani calismiyor
+42 - Iade Tuatari string ve eksi aliyor
+
+KULLANICILAR----------------------------------------------------------
+41 - Arama calismiyor (Datatable Hatasi)
+->Kullanici Ekle
+42 - Ad alani min kontrolu yok
+43 - Email format ve min kontrolu yok
+
+->Kullanici Duzenle
+44 - Ad alani min kontrolu yok
+45 - Email format ve min kontrolu yok
+46 - Sifre min kontrolu yok
+
+BILDIRIMLER-------------------------------------
+->Bildirimler
+47 - Sil butonu calismiyor
+->Bildirim Gonder
+48 - Bildiirim Icerigi alani min kontrolu yok
+49 - Tarih geriye donuk verilebiliyor
+
+AYARLAR------------------------------------------------------
+50 - Hakkimizda bos aliyor
+51 - KVKK bos aliyor
+52 - Adres alani min-max kontrolu yok
+53 - Email format kontrolu yok
+54 - Email alani min-max kontrolu yok
+55 - Telefon format kontrolu yok
+56 - Telefon alani min-max kontrolu yok
+57 - Sol Menu Cikis calismiyor
+
+
+
+
+Not: Her Sayfada Console Hatasi Var (app.bundle.js)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

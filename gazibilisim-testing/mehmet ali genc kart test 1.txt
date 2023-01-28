@@ -1,0 +1,165 @@
+
+LOGIN-----------------------------------
+1 - email format uyarisi yok
+2 - baslik yazisi bir yere gitmiyor
+3 - sifre sifirlama yok
+
+ADMIN MENU------------------------------------------------------
+4 - Admin anasayfa Gaziantep Genc Kart Baslik tiklaniyor ama bir yere gitmiyor
+5 - Admin menu arama calismiyor
+
+KAMPANYALAR-----------------------------------------------------------
+Ekle ve duzelt sayfasinda
+6 - Kampanya Başlığı calismiyor
+7 - Kısa Açıklama calismiyor ve kayit olmuyor
+
+HEDIYE KODLARI---------------------------------------------------------
+Liste Sayfasi
+8 - arama calismiyor
+Ekle ve Duzelt Sayfasi 
+9 - Kampanya alani bos gidebiliyor
+10 - Kod alani karakter sinirlamasi yok
+11 - Kod alani her numeric ve string degerleri birlikte aliyor
+12 - Kampanaya alani bos gidiyor
+13 - Kayit butonu calismiyor
+14 - Tarihler bibirini asabiliyor
+
+ETKINLIKLER-------------------------------------------------------
+Ekle ve Duzenle sayfasi
+15 - Tipi alani bos aliyor
+16 - Aciklama alani bos aliyor
+18 - Puan eksi deger aliyor -90 gibi
+19 - Adres alani bos aliyor
+20 - Resim alani bos aliyor
+
+HABERLER----------------------------------------------------------------------
+21 - Tipi alani bos aliyor
+22 - Baslik alani nokta,virgul gibi tek karakter alabiliyor
+23 - Aciklama alani bos aliyor
+25 - Resim alani bos aliyor
+
+MEKANLAR----------------------------------------------------------------
+Ekle ve Duzenle sayfasi
+26 - Tipi alani bos aliyor
+27 - Aciklama alani bos aliyor
+28 - Detay alani bos aliyor
+29 - Adres alani bos aliyor
+30 - Resim alani bos aliyor
+
+HEDIYELER-----------------------------------------------------------------
+Ekle ve Duzenle sayfasi
+31 - Baslik alani nokta,virgul gibi tek karakter alabiliyor
+32 - Aciklama alani bos aliyor
+33 - Puan eksi deger aliyor -90 gibi
+34 - Resim alani bos aliyor
+
+HEDIYE TALEPLERI-----------------------------------------------------
+Ekle sayfasi
+35 Kayit butonu calismiyor
+36 - Silme butonu calismiyor Kayit Bulunamadi Hatasi
+
+FIRMALARA-----------------------------------------------------------
+Ekle sayfas ve Duzenle sayfasi
+37 - Telefon alani bos aliyor
+38 - Baslik alani nokta,virgul gibi tek karakter alabiliyor
+39 - Adres alani bos aliyor
+40 - Aciklama alani bos aliyor
+41 - email format kontrolu yok
+42 - Resim alani bos aliyor
+
+UYELER------------------------------------------------------------
+43 - Ad alani tek karkter kabul ediyor
+44 - Soyad alani tek karekter kabul ediyor
+45 - TC alani kontrolu yok
+46 - SIfre alani tek karekter kabul ediyor
+47 - Kayit butonu Bazen 500 hatasi veriyor
+
+BILDIRIM---------------------------------------------------------
+Ekle ve Duzenle sayfasi
+48 - Baslik alani tek karkter kabul ediyor
+49 - Mesaj alani tek karkter kabul ediyor
+
+UYGULAMALAR-------------------------------------
+Ekle ve Duzenle
+50 - Baslik alani tek karkter kabul ediyor
+51 - Aciklama alani bos ve tek karkter kabul ediyor
+52 - Tanim alani bos ve tek karkter kabul ediyor
+53 - IOS link alani bos ve tek karkter kabul ediyor
+54 - Resim alani bos kabul ediyor
+55 - Arama calismiyor
+
+VIDEOLAR-----------------------------------
+56 - Video ekle ve duzenle sayfasinda video input bos gidebiliyor
+57 - Baslik alani tek karkter kabul ediyor
+58 - Resim alani bos kabul ediyor
+59 - Aciklama alani bos ve tek karkter kabul ediyor
+60 - Arama calismiyor
+
+DUYURULAR----------------------------------------
+Ekle ve Duzenle sayfasi
+61 - Arama calismiyor
+62 - Baslik alani tek karkter kabul ediyor
+63 - Ozet alani bos ve tek karkter kabul ediyor
+64 - Icerik alani bos ve tek karkter kabul ediyor
+65 - Resim alani bos kabul ediyor
+
+TIPLER
+-> Kampanyalar
+Ekle ve Duzenle sayfasi
+66 - Baslik alani tek karkter kabul ediyor
+67 - icon alani bos aliyor
+
+-> Etkinlikler
+Ekle ve Duzenle sayfasi
+67 - Baslik alani tek karkter kabul ediyor
+68 - icon alani bos aliyor
+
+-> Haberler
+Ekle ve Duzenle sayfasi
+69 - Baslik alani tek karkter kabul ediyor
+70 - icon alani bos aliyor
+
+
+-> Mekanlar
+Ekle ve Duzenle sayfasi
+71 - Baslik alani tek karkter kabul ediyor
+72 - icon alani bos aliyor
+
+
+YONETICILER
+Ekle ve Duzenle sayfasi
+73 - Ad alani tek karkter kabul ediyor
+74 - Soyad alani tek karkter kabul ediyor
+75 - Telefon alani tek karkter kabul ediyor
+76 - Telefon format kontrolu yok
+77 - TC alani string string ve tek karekter aliyor
+78 - Unvan alani tek karkter kabul ediyor
+79 - Sifre alani tek karkter kabul ediyor
+
+BILGILER
+Duzenle Sayfasi
+81 - Telefon alani tek karkter kabul ediyor
+82 - Telefon format kontrolu yok
+83 - Adres alani tek karekter kabul ediyor
+84 - Email alani tek karekter kabul ediyor
+85 - Email format kontrolu yok
+86 - Resim alani bos aliyor
+87 - Adres alani bos aliyor
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

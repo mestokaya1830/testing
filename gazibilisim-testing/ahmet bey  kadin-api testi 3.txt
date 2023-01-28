@@ -1,0 +1,16 @@
+TEST TARIHI: 5/13/2022
+
+KAMPANYA----------------------------------------------------
+
+Kampanyalar->Duzenle
+1 - Tarih alani gecmisi aliyor
+
+
+ETKINLIKLER-------------------------------------------------
+Etkinlik->Ekle
+2 - Yayin Tarihi Bitis Tarihinden buyuk olabiliyor
+
+UYELER------------------------------------------------------
+Uye->Ekle
+3 - E Devlete kimlik dogrulama erisim sorunu handle edilmemis
+

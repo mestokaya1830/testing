@@ -1,0 +1,18 @@
+TEST TARIHI:06/16/2022
+
+1 - Videolar->Ekle calismiyor hata mesaji = Illuminate\Http\Exceptions\PostTooLargeException
+2 - Solmenu'den alt manu eklerken iki adet baslik var
+3 - Nasil Yildiz Kazanirim->Pasif calismiyor
+4 - Tipler->Kampanyalar Silinemiyor
+
+
+
+
+
+
+
+
+
+
+
+

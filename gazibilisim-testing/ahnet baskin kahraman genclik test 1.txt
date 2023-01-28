@@ -1,0 +1,9 @@
+TEST TARIHI:6/17/2022
+
+1 - TIPLER->MEKANLAR gorsel sutunu var ama gorseller gorunmuyor
+2 - Video Ekle hata kodu = 413 Request Entity Too Large
+3 - Sirket Bilgileri ->Address alani min 3 olarak belirtilmis
+4 - Uygulamalar->Ekle link kontrolleri yok ios icin(http://www.google eklenebiliyor)
+5 - Uygulamalar->Ekle Tanim max mesaji = 'validation.max.string'
+6 - TIPLER->HABERLER ikikez ayni kategori eklenebiliyor unique degil (iki tane olunca biri devre disi kaliyor)
+NOT:Yoneticiler update veya delete yok

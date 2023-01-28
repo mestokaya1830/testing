@@ -1,0 +1,6 @@
+TEST TARIHI:5/5/2022
+
+1 - Kayit ol unique belli degil("Kayit basarisiz bu bilgilere ait kullanic kaydi var" mesaji donuyor)
+ ve Ad alani'na odaklaniyor.Unique olan hangisi?
+2 - TC kontrolu eksik(00000000000)aliyor
+3 -> Destek sayfasi -> sosyal iconlar calismiyor

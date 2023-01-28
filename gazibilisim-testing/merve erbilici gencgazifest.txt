@@ -1,0 +1,136 @@
+LOGIN----------------------------------------------
+1 - Email format kontrolu eksik (Sadece @ kontrolu var)
+2 - Sifre min ve max kontrolu yok
+3 - Console hatasi  = "This request has been blocked; the content must be served over HTTPS."
+
+ANA SAYFA---------------------------------------------------------------------
+4 - Kategoriler gorselleri link verilmis ama calismiyor
+5 - Etkinlik Sanatçı ve DJ Performansları link verilmis ama calismiyor
+
+FOOTER-------------------------------------------------------------------
+7 - Ses Yarismasi Irtibati altindaki -iletisim@gaziantep.bel.tr- link calismiyor
+8 - E-Sport altindaki -iletisim@gaziantep.bel.tr- link calismiyor
+
+FESTIVAL BILGILERI---------------------------------------------
+->Program->Ses yarismasi basvuru Formu
+9 - Buton cevap vermiyor
+->Program->Spor yarismasi basvuru Formu
+10 - Ad alani min ve max kontrolu yok
+11 - Soyad alani min ve max kontrolu yok
+12 - Email dogru girilmesine ragmen calismiyor(Formata uygun degil hatasi)
+13 - TC dogru girilmesine ragmen calismiyor(Formata uygun degil hatasi)
+14 - Adres alani min ve max kontrolu yok
+15 - IBAN string aliyor
+->Program->E-Spor yarismasi basvuru Formu
+16 - Ad alani min ve max kontrolu yok
+17 - Soyad alani min ve max kontrolu yok
+18 - Email dogru girilmesine ragmen calismiyor(Formata uygun degil hatasi)
+19 - TC dogru girilmesine ragmen calismiyor(Formata uygun degil hatasi)
+20 - Adres alani min ve max kontrolu yok
+21 - IBAN string aliyor ve format kontrolu yok
+
+GALERI--------------------------------------------------
+22 - Konsolda font hatasi
+23 - Gorseller ve container boyutlari uyumsuz
+24 - Bazi gorseller yuklenemiyor yada cok gec yukleniyor
+
+DUYURULAR----------------------------------
+25 - Tab kapali geliyor. Risk:(Kullanici bos algilayabilir)
+
+ILETISIM---------------------------------
+25 - Email linki calismiyor
+
+
+
+ADMIN------------------------------------------------------
+26 - Sol baslik link var ama calismiyor
+27 - Admin resim link var ama calismiyor
+28 - Footer daki Gaziantep Büyükşehir Belediyesi link gancgazifest'e gidiyor
+ 
+BASVURULAR------------------------------------------
+->Basvurular
+29 - Arama calismiyor Datatable hatasi
+30 - Butonlarin Title eklenmemis Risk:Kullanici yanilabilir
+"Bu Seçilim durumu değişecektir.
+İşlemi onaylıyor musunuz ?" Muglak bir mesaj
+->Secilen Basvurular
+31 - Calismiyor Datatable hatasi
+
+ETKINLIKLER-----------------------------------
+32 - Arama calismiyor Datatable hatasi
+->Etkinlik Ekle
+33 - Baslik alani max kontrolu yok
+34 - Etkinlik Adi alani min-max kontrolu yok
+35 - Icerik alani min-max kontrolu yok
+36 - Etkinlik adi unique degil
+->Etkinlik Ekle->Etkinlik Detay Ekle
+37 - Baslik alani min-max kontrolu yok
+38 - Icerik alani min-max kontrolu yok
+39 - Bitis saati baslangic saatinde kucuk aliyor
+
+KATEGORILER-------------------------------------------
+->Kategori Ekle
+40 - Kategori Adi alani min0max kontrolu yok
+41 - Aciklama alani min kontrolu yok
+->Kategori Duzenle
+42 - Kategori Adi alani min0max kontrolu yok
+43 - Aciklama alani min-max kontrolu yok 
+
+SORULAR---------------------------------------
+-Soru Ekle
+44 - Soru alani min0max kontrolu yok
+45 - Aciklama alani min kontrolu yok
+->Soru Duzenle
+46 - Soru alani min0max kontrolu yok
+47 - Aciklama alani min-max kontrolu yok
+
+
+DUYURULAR----------------------------------
+->Duyuru Ekle
+48 - Duyuru Adi alani min-max kontrolu yoktur
+49 - Duyuru Aciklama alani min kontrolu yoktur
+50 - Bos gonderildiginde hata mesaji donmuyor ama kayitta yapmiyor
+->Duyuru Duzenle
+51 - Duyuru Adi alani min-max kontrolu yoktur
+52 - Duyuru Aciklama alani min kontrolu yoktur
+
+GALERI--------------------------------------------------
+->Galeri Ekle
+53 - Resim Adi alani min-max kontrolu yoktur
+54 - Resim Aciklama alani min kontrolu yoktur
+->Galeri Duzenle
+55 - Resim Adi alani min-max kontrolu yoktur
+56 - Resim Aciklama alani min kontrolu yoktur
+
+KULLANICILAR----------------------------------------
+->Kullanici Ekle
+57 - Ad alani min-max kontrolu yok
+58 - Soyad alani min-max kontrolu yok
+59 - Sifre-Sifre Tekrara alanlari max kontrolu yok
+60 -Kaydet butonu 404 hatasi donuyor
+
+->Kullanici Duzenle
+61 - Ad alani min-max kontrolu yok
+62 - Soyad alani min-max kontrolu yok
+63 - Sifre-Sifre Tekrara alanlari max kontrolu yok
+64 -Kaydet butonu 404 hatasi donuyor
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

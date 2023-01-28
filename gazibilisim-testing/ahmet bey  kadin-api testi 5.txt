@@ -1,0 +1,45 @@
+TEST TARIHI:05/25/2022
+
+KAMPANYALAR---------------------------------------------------------------------------
+1 - Hediye Kod->Ekle sayfasinda Kampanya Listbox ta Firma isimleri listeleniyor(Firma adinin secilmesi asagidaki 2 ve 3 nolu hatalara neden oluyor)
+2 - Kampanya Ve Hediye kupon tanimlanmasina ragmen Kullanilamiyor cunku 'Kalan Hediye' 0 gorunuyor.
+3 - Kullanilan kupon 'Kullanim Siniri'ndan dusulmuyor
+4 - Hediye->Kodlari Duzenle sayfasinda durum Pasif yapilmiyor(Kullanici sabitleme zorunlu tutulmus)
+5 - Hediye->Kodlari Duzenle sayfasinda hediye sayisi guncelleme secenegi yok
+6 - Kampanya silinmesine ragmen o kampanyaya ait Hediye Kodlari silinmiyor(Iliskisel bir durum yok)
+7 - Firma siliniyor ama o firmaya ait Kampanyalar isimsiz olarak listeleniyor
+
+SOL MENU
+8 - Kadin Sagligi->Duzenle Sayfasinda resim zorunlu(bu nedenle guncelleme gerceklesmiyor)
+9 - Atik Yag Talebi->Duzenle Sayfasinda Guncelleyemeye bir kez izin veriliyor(Yonetici yanlislik yapsa bu yanlisligi duzeltme sansi olmayacak)
+
+
+PANEL ONERILERI---------------------------------------------------------
+1 - Kampanya->Ekle Sayfasinda hem 'Baslik' hemde 'Kampanya Basligi' alanlari var(Oneri:Sadece  Kampanya Adi olabilir)
+2 - Kampanya->Ekle Sayfasinda hem 'Kisa Aciklama' hemde 'Detay' alanlari var (Oneri: Sadece Aciklama olabilir)
+3 - Hediye Kod->Ekle sayfasinda "Kampanya" Kampanya Adi olabilir
+4 - Gezi->Ekle konum zorunlu degil(Olmasi daha iyi olur)
+5 - Firma kategorisi olabilir
+6 - Yonetici sadece sifresini degistirebiliyor(Telefonunu guncellemek isterse sorun olabilir)
+
+
+Not:Backend ve Frontend Menuleri isimlendirmede birbirileriyle uyumlu degil ornegin
+Mekan-Tesis
+Firsat-Kampanya
+Onemli Bilgiler-Genel Bilgiler
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

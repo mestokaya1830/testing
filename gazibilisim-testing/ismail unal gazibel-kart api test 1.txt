@@ -1,0 +1,17 @@
+TEST TARIHI: 05/17/2022
+
+LOGIN ------------------------------------------------
+1 - Kullanici adi bos birakildiginda bu alanla ilgili mesaj donmuyor
+2 - Email kontrolu yok
+3 - Baslik link var ama yonledirme yok
+4 - Console log hatasi = Cannot read properties of undefined (reading 'match')
+
+ADMIN PANEL-------------------------------------------------
+5 - Admin Sag Menu arama calismiyor
+6 - Panel arama calismiyor(Ana sayfa ustundeki arama) ve Musteriler sayfasina gidiyor
+7 - Admin Sag Menu "Sandbox Odeme Sitemi" baslik link var ama calismiyor
+8 - Ekle ve Yazdir iconlarina title verilmemeis
+
+GELIRLER------------------------------------------------------
+9  - Arama calismiyor
+10 - Iconlara title verilmemis
