@@ -1,0 +1,7 @@
+TEST TARIHI: 06/15/2022
+
+1 - Uygulama Telefondan kaldirildiginda cookiler kaldirilmiyor(Guvenlik riski)
+2 - Aktif Yag Talebinde adres girilecek alan yok
+3 - Anasayfadki Favori Butonu calismiyor
+4 - Favori ekleme calismiyor
+5 - Profil Duzenle calismiyor

@@ -1,0 +1,95 @@
+LOGIN--------------------------------------------------------------------
+1 - Insan Kaynaklari basligi tiklaniyor ama bir yere gitmiyor
+2 - Email format kontrolu yok
+3 - Yanlis sifre girdisinde kullanici bilgilendirme mesaji yok
+
+ADMIN PANEL--------------------------------------------------------------
+4 - Arama calismiyor
+
+TANIMLAR---------------------------------------------------------------
+->Kisiler->Kisi Ekle->Genel
+5 - Alanlarin Selectboxlar  haric hicbirinde input kontrolu yok
+6 - Ise giris tarihi cikis tarhinden sonra olabiliyor
+7 - Email format kontrolu yok
+8 - Telefon string aliyor
+9 - TC string aliyor
+10 - Dogum tarihi ileriki bir tarih olabiliyor
+
+->Kisiler->Kisi Duzenle->genel
+11 - Alanlarin Selectboxlar  haric hicbirinde input kontrolu yok
+12 - Ise giris tarihi cikis tarhinden sonra olabiliyor
+13 - Email format kontrolu yok
+14 - Telefon string aliyor
+15 - TC string aliyor
+16 - Dogum tarihi ileriki bir tarih olabiliyor
+
+->Bildirimler
+17 - ekle 500 hatasi
+
+->Araclar->Ekle
+18 - Arama calismiyor
+19 - Plaka alan kontrolu yok
+
+->Araclar->Duzenle
+20 - Plaka alan kontrolu yok
+21 - String girildiginde 500 hatasi veriyor
+
+SUBE-----------------------------------------------------------
+->Ekle
+22 - Sube Alan kontrolu yok
+23 - Adres alan kontrolu yok
+->Duzenle
+24 - Sube Alan kontrolu yok
+25 - Adres alan kontrolu yok
+
+->Alan
+26 - DataTables warning: table id=DataTables_Table_0 - Ajax error. For more information about this error, please see http://datatables.net/tn/7 hatasi
+28 - Alan Adi kontrolu yok
+29 - Adres alan kontrolu yok
+
+AYARLAR-----------------------------------------------
+30 - 500 hatasi
+
+
+PUANTAJ------------------------------------------------------------------
+->mesai->ekle
+31 - arama calismiyor
+32 - Ekle sayfasinda ileriye tarih verilebiliyor
+33 - Not bos aliyor
+->Alan
+34 - DataTables warning: table id=DataTables_Table_0 - Ajax error. For more information about this error, please see http://datatables.net/tn/7 hatasi
+
+IZIN ISLEMLERI---------------------------------------------
+35 - izin ekle inputlarinda Sebep ve Adres alanlarinda karekter uzunlugu kontrolu yok tek karekterle kayit yapabiliyor
+ ARAC ISLEMLERI---------------------------------------------------------
+36- 500 hatasi- 400 bad request
+
+ZIMMET ISLEMLERI----------------------------------------------------------
+->ekle
+36 - Esyalar alan kontrolu yok
+37 - Notlar alan knotrolu yok
+->duzenle
+38 - Esyalar alan kontrolu yok
+39 - Notlar alan knotrolu yok
+40 - Arama calismiyor
+
+
+PROFIL-------------------------------------------------------------------
+41 - Telefon alani karekter uzunlugu kontrolu yok
+42 - Telefon alani string aliyor
+43 - Ad ve Soyad alanalari virgul ve benzeri karketerlerle kayit yapabiliyor
+
+TANIMLAR DEVAMI---------------------------------------------------------
+->Kisiler->Sube
+44 - Kaydet butonu Genel bilgiler doldurulmamis ise Genel bilgilere yonledirmiyor, mesaj ve tepki vermiyor
+->Kisiler Notlar
+45 - Kaydet butonu Genel bilgiler doldurulmamis ise Genel bilgilere yonledirmiyor, mesaj ve tepki vermiyor
+
+->Kisiler->Ayarlar
+46 - Kurum Disi Yetkisi olmamasina ragmen Kurum Disi butonu gozukmektedir.
+47 - Kurum Disi Yetkisi olmamasina ragmen Kurum Disi giris yapilabiliyor
+48 - Offline giriste ve cikista (0 giris ve 0 cikis durumunda) giris ve cikis kayitlarini 2 kez ekliyor
+49 - Offline cikista geriye mesaj donmuyor
+
+
+Not Superadmin kindini silebiliyor

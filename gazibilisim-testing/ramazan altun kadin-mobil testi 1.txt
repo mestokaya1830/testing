@@ -1,0 +1,14 @@
+TEST TARHI:5/5/2022
+Sag Menu 
+1 -> Deskte sayfasi -> sosyal iconlar calismiyor
+2 -> Sosyal Medya sayfasi -> sosyal iconlar calismiyor
+3 -> Etkinlige katil donuyor
+4 -> Sifre degister sayfasi calismiyor(Siyah Ekran Cikiyor) uygulama cokuyor
+5 -> Profil Duzenle sayfasinda Ad-Soyad alani calismiyor
+6 -> Profil Duzenle sayfasinda TC alani calismiyor
+7 -> Profil Duzenle sayfasinda DT alani calismiyor
+8 -> Profil Duzenle Sayfasi Update sonrasi yonledirme yok
+9 -> Puanlar bazen cikis yapmadan guncellenmiyor
+10 -> Cikis ta vazgec butonu calismiyor
+11 -> Referans yerine Referan yazilmis
+

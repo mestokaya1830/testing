@@ -1,0 +1,9 @@
+TEST TARIHI: 4/25/2022
+
+LOGIN--------------------------------------
+1 - Kullanici bilgileri yanlis girildiginde geriye mesaj donmuyor
+2 - Tutar 0 girildiginde geriye mesaj donmuyor
+3 - Kart bakiyesi isletme sahibi tarafinda goruluyor
+4 - Yetersiz bakiye durumunda yeni bakiye belirleme durumu yok
+5 - Islem saatleri dakika olarak uyumsuz olabiliyor(12:58-12:59)gibi
+                                                                                                                     

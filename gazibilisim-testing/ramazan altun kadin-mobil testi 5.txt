@@ -1,0 +1,5 @@
+TEST TARIHI: 05/16/2022
+
+1 - Kayit Olmadan Devam Et -> Genel Bilgiler -> Sectionlar Cevap Vermiyor(Gri Ekran)
+
+

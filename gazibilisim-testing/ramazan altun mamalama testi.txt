@@ -1,0 +1,31 @@
+LOGIN---------------------------------------
+1 - Sifre min ve max kontrolu yok
+
+REGSITER------------------------------------
+2 - Telefon format kontrolu yok(ilk rakam 0 zorunlu degilse)
+3 - Tarih kontrolu yok
+4 - Kayit butonu kayit yapmiyor (Beklenmedik bir hata) mesaji veriyor
+
+PROFIL----------------------------------------------------------
+5 - Ad alani min ve max kontrolu yok
+6 - Telefon min ve max kontrolu yok
+7 - Telefon format kontrolu yok
+8 - Sifre min ve max kontrolu yok
+
+ADMIN PANEL------------------------------------------
+9 - Login olmus bir kullanici ADMIN PANELINDEN silindiginde login sureci devam etmektedir
+10 - Silinmis bir kullanic giris yapmak istdeginde "Yetkisiz ama bazi veriler bos geldi" mesaji veriyor
+
+
+Ana Sayfa-------------------------------------
+11 - Konum secme performansi olducka dusuk
+
+
+Not Iyilestirme Onerileri
+Ana Sayfa----------------------------------------
+1 - Yanlis QRCODE durumunda hata mesaji ekranda 1 saniye kaliyor ve okunamiyor(uzatilabilir)
+2 - Kap secilmedigi surece Mamala butonu gizlenebilir
+3 - Hayvan turune gore secim yapildiginda secili olan stillendirilebilir
+4 - Hayvan turune gore secim yapildiginda secili olanlarin iconlari stillendirilebilir
+5 - Profil Guncelleme sonrasi sayfa yonlendirme olabilir
+

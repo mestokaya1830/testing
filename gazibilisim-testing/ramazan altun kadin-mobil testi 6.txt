@@ -1,0 +1,15 @@
+TEST TARIHI: 05/25/2022
+
+1 - Etkinlik Konum Calismiyor
+2 - Arama aranan deger yoksa bir mesaj dondurmuyor
+
+
+Not:Uygulama ortalama 400MB ram tuketiyor.Bu yuksek bir oran.
+
+
+
+Not:Backend ve Frontend Menuleri isimlendirmede birbirileriyle uyumlu degil ornegin
+Mekan-Tesis
+Firsat-Kampanya
+Onemli Bilgiler-Genel Bilgiler
+

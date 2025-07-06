@@ -1,0 +1,7 @@
+TEST TARIHI:6/17/2022
+
+1 - Login-> Email ve Password alanlarin min kontrolu yok
+2 - Register -> Email kontrolu yok
+3 - Etkinlik-Haberler-Tesisler ustmenu ve alt itemlarin iconlari gelmiyor
+4 - Etkinlik saat kontrolu yanlis Devam eden etknlik icin 'Etkinlik Zamani Sona Erdi' mesaji donuyor
+5 - Etkinlik Takvimi calismiyor(Yada yanlis kurgulanmis)Ornegin 6/17/2022 de baslayan ve 6/28/2022 de biten bit etkinlik takvimde gorunmuyor

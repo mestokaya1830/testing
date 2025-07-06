@@ -1,0 +1,44 @@
+
+MARKET----------------------------------------------
+->Kayit sayfasi
+1 - Kayit sirasinda hata sonucu girilen veriler siliniyor(old('name')) tanimli degil
+2 - Vergi numarasi alani max 50 ayarlanmis
+3 - Vergi numarasi alani min degeri atanmamis
+4 - Firma adi max limite ulastiginda mesaj donmuyor
+5 - Firma adi alani min 4 karekterle sinirli (ornegin ITO yazilamaz)
+6 - Vergi no alani bos aliyor(Optional degilse sorun)
+7 - Telefon formata uygun degil tek karketerle kayit yapabiliyor
+8 - Sifre sifirlama ekraninda email format kontrolu yok
+9 - Firma web site alani link kontrolu yok ornek vffv gibi kayit yapabiliyor
+
+->Iletisim
+11 - Ad alani min ve max kontrolu yok
+12 - Email format kontrolu yok
+13 - Telefon string aliyor
+14 - Mesaj min ve max kontrolu yok
+
+PANEL---------------------------------------------
+15 - Sosyal linkler calismiyor
+
+->sistem->tum uyeler
+16 - Profil butonu target blank aciliyor
+UYE ISLEMLERI--------------------------------------------
+
+17 - Telefon string aliyor min ve max kontrolu yok
+18 - Il alani 10 kareterle sinirlanmis ornegin(Kahramanmaras Yazamaz)
+19 - Ilce alani 10 karekterle sinirli ornegin(Kahramanmaras Yazamaz)
+
+MARKET ISLEMLERI
+->Market Listesi->Yeni Market Ekle
+20 - calismiyor hata mesaji ->
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'ad' cannot be null 
+(SQL: insert into `firms` (`ad`, `vergi`, `telefon`, `eposta`, `adres`, `website`, `kategori`, `ulke`, `sehir`, `postakodu`, `updated_at`, `created_at`) 
+values (?, Gaziantep Province, +905322088744, mesto1830@outlook.com, Yeni mah.Gaffurbaba Sk No:4, ?, ?, Afganistan, ?, ?, 2022-03-11 06:02:22, 2022-03-11 06:02:22))
+
+->Market Listesi->Duzenle->Guncelle Sayfasi
+21 - Kaydet butonu mesaj donmuyor
+22 - Websitesi link kontrolu yok
+23 - Telefon string aliyor min ve max kontrolu yok
+24 - Sehir alani min ve max kontrolu yok
+25 - Posta alani string aliyor min ve max kontrolu yok
+26 - Market kategori guncelleme sonrasi Market anasayfa market bilgileri alninda guncellemiyor

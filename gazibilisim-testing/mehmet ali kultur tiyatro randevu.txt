@@ -1,0 +1,11 @@
+TEST TARIHI:3/29/2022
+
+LOGIN----------------------------
+1 - Sifre sifirlama yok
+2 - Giris Butonu alanlar null iken geriye mesaj donmuyor
+3 - Giris Butonu alanlara yanlis deger girildiginde geriye mesaj donmuyor
+
+ADMIN------------------------------------
+NOT Cok sayida Console hatasi var
+ANASAYFA-----------------------------------
+4 - Arama calismiyor Basvuru liste sayfasina gidiyor

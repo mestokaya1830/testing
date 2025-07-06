@@ -1,0 +1,171 @@
+Test Tarihi:3/22/2022
+ROLE SUPERADMIN
+ANA SAYFA-------------------------------------------------
+1 - Console hatasi not found(/f-assets/images/fav-orange.png:1)
+2 - Mesleklerimiz linki tasarim farkli(Sadece bu link asagi dogru aciliyor)
+3 - Mesleklerimiz Tab inda Makina ve Elektrik-Elektronik linkleri veri yada mesaj yerine yonlendirme iceriyor
+4 - Footer daki email adresi calismiyor
+
+MESLEKLERIMIZ--------------------------------------------
+5 - Meslek Basvuru Formu calismiyor sql hatasi
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_optional' in 'where clause' 
+(SQL: select * from `programs` where exists 
+(select * from `program_units` where `programs`.`id` = `program_units`.`program_id` and `is_optional` = 0 and `program_units`.`deleted_at` is null)
+ and `id` = 1 and `programs`.`deleted_at` is null limit 1)
+
+ILETISIM------------------------------------------------
+6 - Email calismiyor (Cevap vermiyor)
+7 - Telefon calismiyor (Not found)
+->Mesaj Formu
+8 - Ad alani min ve max kontrolu yok
+9 - Email bos aliyor
+10- Mesaj alani min kontrolu yok
+
+ANA LINKLER------------------------------
+11 - Basvuru Formu Forma degil Mesleklerimiz sayfasina gidiyor
+
+
+
+LOGIN--------------------------------------------------
+12 - Email kontrolu yok
+13 - Sifre alani min ve max kontrolu yok
+
+ADMIN MENU----------------------------------------------
+14 - Sol menu baslik link var ama calismiyor
+
+BASVURULAR------------------------------------
+-> Duzenle
+15 - TC string aliyor ve min ve max kontrolu yok
+16 - Ad alani min ve max knontrolu yok
+17 - Soyad alani min ve max kontrolu yok
+18 - Telefon string aliyor min ve max kontrolu yok
+19 - Email format kontrolu, min ve max kontrolu yok
+20 - Dogum Yeri min ve max kontrolu yok
+21 - Dogum Tarihi kontrolu yok (Dogum Gunu Bugun olabiliyor)
+22 - Adres min ve max kontrolu yok
+23 - Iban string aliyor ve min,max kontrolu yok
+24 - Iban Sahibi min ve max kontrolu yok
+25 - Calistigi Firma min ve max kontrolu yok
+26 - Gorevi min ve max kontrolu yok
+27 - Isyeri Adresi min ve max kontrolu yok
+28 - Aciklama min ve max kontrolu yok
+29 - Kimlik Fotokpisi alani bos aliyor
+30 - Dekont Alani bos aliyor
+31 - Fiziksel Engel alani min ve max kontrolu yok
+
+SINAVLAR--------------------------------------------
+-> Ekle
+32 - Sinav Basligi min ve max kontrolu yok
+33 - Sinav Id min ve max kontrolu yok
+34 - Sinav Tarihi geriye donuk verilebiliyor
+35 - Firma Ad alani min ve max kontrolu yok
+36 - Sinavlar secili olmadiginda donen mesaj "Sinav Turu Secili Olmalidir" ama boyle bir alan yok
+-> Duzenle
+37 - Sinav Turu araniyor ama oyle bir alan yok bu nedenle duzenleme yapmiyor
+38 - Sinavlar checkbox secildiginde olusan hata "Undefined variable: exam"
+39 - Sinavlar->goruntule->Sinav Kagidi al donen bos PDF
+
+SORULAR-----------------------------------------------
+->Soru Ekle
+40 - Konu Basligi calismiyor
+41 - Soru Icerigi min ve max kontrolu yok
+
+PROGRAMLAR-----------------------------------------------
+->Program Ekle
+42 - Program Adi min ve max kontrolu yok
+43 - Program Kodu min ve max kontrolu yok
+44 - Sertifika Yenileme Ucreti string aliyor ve min, max kontrolu yok
+45 - Ekle sonrasi olusan hata
+SQLSTATE[22007]: Invalid datetime format: 1366 Incorrect double value: 'a' for column `myk`.`programs`.`certificate_renewal_fee` at row 1 
+(SQL: insert into `programs` 
+(`sector_id`, `name`, `code`, `level`, `certificate_renewal_fee`, `is_application`, `show_index`, `content`, `created_by`, `updated_at`, `created_at`) 
+values (1, a, a, 1, a, 1, 1, ?, 1, 2022-03-22 14:42:49, 2022-03-22 14:42:49))
+
+-> Program Duzenle
+56 - Program Basligi alani min ve max kontrolu yok
+57 - Program Kodu min ve max kontrolu yok
+58 - Gorseller bos aliyor
+-> Program Duzenle->Yeterlilik Birimi Ekle
+59 - Calismiyor hata (Invalid argument supplied for foreach())
+
+-> Program Duzenle->Yeterlilik Birimi Duzenle
+60 - Calismiyor hata SQLSTATE[22007]: Invalid datetime format: 1366 Incorrect double value: 'a' for column `myk`.`program_units`.`unit_fee` at row 1 
+(SQL: update `program_units` set `unit_level` = acdcddc, `unit_fee` = a, `program_units`.`updated_at` = 2022-03-22 14:49:19 where `id` = 1)
+
+YETERLILIK BIRIMLERI---------------------------------------------------------------------------
+->Yeterlilik Birimi Ekle
+61 - Ad alani min ve max kontrolu yok
+62 - Seviye alani min ve max kontrolu yok
+63 - Tek karekter ile kayit sonrasi olusan hata(Invalid argument supplied for foreach())
+
+->Yeterlilik Birimi Duzenle
+64 - Ad alani min ve max kontrolu yok
+65 - Seviye alani min ve max kontrolu yok
+66 - Ucret alani min ve max kontrolu yok
+67 - Tek karekter ile kayit sonrasi olusan hata(Invalid argument supplied for foreach())
+
+->Yeterlilik Birimi Duzenle->Konu Basligi Ekle
+68 - Ad alani min ve max kontrolu yok
+
+GOREV TURLERI-------------------------------------------------------------------
+->Gorev Turu Ekle
+69 - Gorev adi min ve max kontrolu yok
+->Gorev Turu Duzenle
+70 - Gorev adi min ve max kontrolu yok
+
+SINAV YERLERI--------------------------------------------------------------------
+->Sinav Yeri Ekle
+71 -Sinav Yeri alani min ve max kontrolu yok
+72 -Adres alani min ve max kontrolu yok
+->Sinav Yeri Duzenle
+73 -Sinav Yeri alani min ve max kontrolu yok
+74 -Adres alani min ve max kontrolu yok
+
+KULLANICILAR------------------------------------------------------
+75 - Arama Datatable hatasi
+->Kullanici Ekle
+76 - Ad Soyad alani min ve max kontrolu yok
+77 - Email alani format kontrolu, min ve max kontrolu yok
+->Kullanici Duzenle
+78 - Ad Soyad alani min ve max kontrolu yok
+79 - Email alani format kontrolu, min ve max kontrolu yok
+80 - Sifre alani min ve max kontrolu yok
+MESAJLAR-------------------------------------------------
+81 - Detay Sayfasi hata
+Route [index] not defined. (View: /var/www/vhosts/gazidanismanlikbelgelendirme.com/httpdocs/resources/views/backend/message/edit.blade.php)
+
+SSS--------------------------------------------------------------------------
+->SSS Ekle
+82 - Soru alani min ve max kontrolu yok
+83 - Cevap alani min ve max kontrolu yok
+->SSS Duzenle
+84 - Soru alani min ve max kontrolu yok
+85 - Cevap alani min ve max kontrolu yok
+
+
+
+DUYURULAR--------------------------------------------------------------------------
+->Duyuru Ekle
+86 - Baslik alani min ve max kontrolu yok
+87 - Aciklama alani min ve max kontrolu yok
+->Duyuru Duzenle
+88 - Baslik alani min ve max kontrolu yok
+89 - Aciklama alani min ve max kontrolu yok
+
+AYARLAR------------------------------------------------------------------------------
+90 - Adres alani min ve max kontrolu yok ve bos aliyor
+91 - Telefon alani min ve max kontrolu yok ve bos aliyor
+92 - Email alani format, min ve max kontrolu yok ve bos aliyor
+94 - Konum alani min ve max kontrolu yok ve bos aliyor
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,36 @@
+
+REGISTER-----------------------------------------
+1 - Sifre alani min  ve max kontrolu yok(8 karekter girmeme ragmen "Sifre en az 6 karakter olmalidir" mesaji veriyor)
+2 - Kayit Detay sayfasinda ki hata mesajlari aciklayici degil("Butun alanlari kontrol ediniz" gibi)cursor hatali alana gitmiyor
+
+BANA OZEL-------------------------------------------------------------------------------------------                                                                                                                                                                                                                                                                                                                                                                                                                                                                     
+-> Ulasim binis tanimlama
+3 - ("Beklenmedik bir hata olustu") mesaji
+-> Genc Gaziantep Destek->Gorus ve Oneriniz 
+54- Email  sonucu belirsiz.(Gitti vs geri donus mesaji yok)
+-> Arkadaslarini Davet Et
+5 - Paylasim sonucu belirsiz.(Gitti vs geri donus mesaji yok)
+6 - Konumlar da Tumu ile Kategorilerin toplami esit degil
+
+Ana Sayfa
+7 - Bi Bilet yanlis linke yonlendirilmis                                                                                                                                                          
+8 - Etkinlik suresi dolmasina ragmen Katil Butonu aktif durumda
+
+-> Video Seyrederek Elmas Kazan
+9 - Video'nin gec yuklenmesi durumunda,video seyredilmeden elmas veriliyor.Video yuklenme kontrolu yok
+
+GENEL-----------------------------------------------------
+10 - Refresh butonu yada sistemi yok
+11 - Harita zoomlama koordinatlari kayboluyor
+
+Play Store (Uygulama Disi)
+->Uygulamalarimiz
+Gaziantep BB  Play Store da karsiligi yok (Tekrar Deneyin)
+Gaziantep Okuyor  Play Store da karsiligi yok (Tekrar Deneyin)
+
+NOT Test verileri olmadigi icin asagidaki testler yapilamamistir
+1 - Etkinliklere Katil
+2 - Etkinlik Konumlarinin Dogrulugu
+3 - Hediyelerin Verilmesi
+4 - Hediye Carki
+5 - Kupon Alma

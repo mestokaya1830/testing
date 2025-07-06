@@ -1,0 +1,8 @@
+TEST TARIHI:05/18/2022
+
+APi de yonetici tarafindan bir uye silindiginden uyeye mesaj verilmiyor.
+Bunun sonucunda uye giris yapmak istedginda hatali giris mesaji donuyor tekrar kayit yapmak istedginde ise "Hesabiniz Askiya Alinmistir"
+mesaji veriliyor.
+
+Oneri : hesabi silinen uye giris yapmak istedginde hesabinin silindigi, neden silindigi ve ne yapmasi gerektigi bilgisi verilmelidir.
+

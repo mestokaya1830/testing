@@ -1,0 +1,24 @@
+YENI PERSONEL VE PERSONEL GUNCELLEME-----------------------------------------
+1 - TC string aliyor
+2 - TC min ve max kontrolu yok
+3 - Ad alani min ve max kontrolu yok
+4 - Sirket/Birimi mesaji aciklayici degil(Once Sirket yada belediye secimi yapilmasi gerekiyor ama mesajda "Birim Secin" mesaji tekrarlaniyor)
+5 - Ise giris tarihi bos birakilinca sql hatasi olusuyor
+6 - Telefon string aliyor ve format kontrolu yok
+7 - Dogum tarihi bugun olabiliyor
+8 - Maas alani string aliyor ve sql hatasi
+9 - Selectboxlar ilgili yerleri otomatik guncellemiyor not (bu alt kategorisi olmayan bir birimin kaydedilmesine neden oluyor)
+
+MAAS GUNCELLE-----------------------------------------------
+10- Maas alani eksi deger aliyor
+11 - Maas limit kontrolu yok ornegin(0000000000000000000000 alabiliyor)
+
+ISTEN AYRILMA----------------------------------------------------------------------
+12 - Isten ayrilma formundaki numeric alanlar string aliyor
+
+CONSOLE----------------------------------------
+CKIEDITOR hatasi
+WEBPHONE hatasi
+WEBSOCKET hatasi
+Personel photo bulanamadi hatasi
+http://vk.gaziantepbilisim.com.tr/portal/responsiveportal/undefined 404 (Not Found)

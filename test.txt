@@ -1,0 +1,32 @@
+composer require --dev phpunit/phpunit
+
+1 change env file as sqlite DB_CONNECTION=sqlite
+2 phpunit.xml uncomment below
+    <env name="DB_DATABASE" value=":memory:"/>
+    <env name="DB_CONNECTION" value="sqlite"/>
+
+in package.json
+"scripts": {
+    ...
+    "tests": "php vendor/phpunit/phpunit/phpunit"
+},
+then npm run test
+
+//or
+run project in folder
+php artisan test
+php artisan test --testsuite=Unit
+php artisan test --filter test_login_form
+
+
+//or instal phpunit extension and add win+ctrl+t as shortcut
+
+
+
+//dusk for browser testing
+composer require --dev laravel/dusk
+php artisan dusk:install
+php artisan dusk:chrome-driver --all
+
+php artisan dusk:make LoginTest
+php artisan dusk

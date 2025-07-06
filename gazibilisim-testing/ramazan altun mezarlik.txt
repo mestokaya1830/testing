@@ -1,0 +1,14 @@
+TEST TARIHI:3/24/2022
+
+ILETISIM-----------------------
+->Adres
+1 - Konum yanlis gosteriyor
+
+->Proje Gorus Ve Oneriniz Icin
+2 - Mesaj alani bos aliyor
+3 - Geriye mesaj donmuyor
+
+4 - Ana Sayfa internet kontrolu yok (Gorunuyor ama calismiyor)
+5 - Hakkimizda Sayfasi internet kontrolu yok(Gorunuyor ama Adres ve Paylas alanlari calismiyor)
+6 - Gundem sayfasi Internet baglantisi kurulduktan sonra bazen otomatik yada manuel yenilemiyor(Bos bir sayfa gorunuyor)
+7 - Ana sayfa Internet baglantisi kurulduktan sonra bazen otomatik yada manuel yenilemiyor(Bos bir sayfa gorunuyor)

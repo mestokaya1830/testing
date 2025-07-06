@@ -1,0 +1,12 @@
+TEST TARIHI: 05/24/2022
+
+1 - Login Sayfasinda Kullanici Adi alani min-max kontrolu yok.
+2 - Login Sayfasinda Sifre alani min-max kontrolu yok.
+3 - Bilet ile odemede Karekod okuma suresi sinirsiz
+4 - QR ile satista iade yapilidiginda bakiye guncellenmiyor // Mobil
+5 - Mobil karekod okuma suresi sinirsiz                     // Mobil
+6 - Musteriye iade sonrasi bakiye bilgisi verilmiyor
+7 - Mobilde harcamalar listesinde ve ana sayfadaki son harcamalarda saat belirtilmiyor    
+                        
+Sistemin calismasina engel bir durum yoktur yukaridaki maddeler Urun Kalitesi acisinda onemlidir
+                                     

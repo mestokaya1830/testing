@@ -1,0 +1,88 @@
+LOGIN-----------------------------------
+1 - email format uyarisi yok
+2 - baslik yazisi bir yere gitmiyor
+
+3 - Simge uzreinde Basliklar Calismiyor
+
+PROFIL-------------------------------------
+4 - Bu sayfada Kaydet butonu calismiyor
+Uncaught TypeError: $(...).mask is not a function
+    at profile:707:30 hatasi profile:707
+
+
+
+ADMIN GENEL-------------------------
+5 - En ustteki arama inputu calismiyor enter sonrasi uyeler sayfasina gidiyor
+
+
+ETKINLIKLER-----------------------
+Ekle ve Duzenle sayfasi 
+Tipi
+Gorsel
+Adres
+ve Aciklama zorunlu ise calismiyor(bos aliyor)
+6 - Baslama tarihi bugunden geriye verilebiliyor
+7 - Bitis tarihi baslama tarihinden once verlebiliyor
+
+HABERLER-------------------------------
+8 - Ekle ve Duzenle sayfasi baslik haric hepsi bos gidebiliyor
+
+MEKANLAR---------------------------------------
+9 - Ekle ve Duzenle sayfasi baslik ve konum haric hepsi bos gidebiliyor
+
+HEDIYELER---------------------------------------
+10 - Ekle ve Duzenle sayfasi baslik ve puan haric bos gidebiliyor
+11 - Puan eksi deger alabiliyor -50 gibi
+
+UYELER------------------------------------------
+12- Duzenle sayfasi calismiyor 
+The MAC is invalid. (View: /var/www/vhosts/gazikadin.gaziantepbilisim.com.tr/httpdocs/resources/views/panel/user/form.blade.php) hatasi
+13 - Ekle sayfasinda TC string deger alabiliyor
+
+BILDIRIM--------------------------
+14 - Ekle sayfasi calismiyor 
+Client error: `POST https://onesignal.com/api/v1/notifications` resulted in a `400 Bad Request` response: {"errors":["Please include a case-sensitive header of Authorization: Basic \u003cYOUR-REST-API-KEY-HERE\u003e or Bearer (truncated...)
+
+UYGULAMALAR------------------------------
+15 - Ekle ve Duzenle sayfasi Baslik haric hepsi bos gidebiliyor
+16 - Ekle sayfasi ve Duzenle sayfasi linkler formata uygun degil sade string girebiliyor mkmkmkmmkmkm gibi
+17 - Arama calismiyor
+
+KISA VIDEOLAR---------------------------------------
+18 - Video ekle ve duzenle sayfasinda video input bos gidebiliyor
+19 - Arama calismiyor
+
+
+EGITICI VIDEOLAR---------------------------------------
+20 - Video ekle ve duzenle sayfasinda video input bos gidebiliyor
+21 - Arama calismiyor
+
+
+DUYURULAR-------------------------------------------
+22 - Arama calismiyor
+23 - Ekle ve duzenle sayfasinda gorsel bos gidebiliyor
+
+KATEGORILER----------------------------------------------
+24 - Etkinler baslik 1 karekter nokta veya virgul ile kayit yapabiliyor
+25 - Haberler baslik 1 karekter nokta veya virgul ile kayit yapabiliyor
+26 - Mekanlar baslik 1 karekter nokta veya virgul ile kayit yapabiliyor
+
+YONETICILER---------------------------------------
+27 - TC string alabiliyor
+28 - Inputlar sadece , ve . ile kayit yapabiliyor
+29 - Email format kontrolu yok
+
+BILGILER-------------------------------------------------
+30 - Tel haric hepsi bos gidebiliyor
+31 - 1 karekter nokta veya virgul ile kayit yapabiliyor
+32 - Email formt kontrolu yok
+
+Sabitler haric butun formlar baslik haric bos kayit yapabiliyor ayrica baslik sorunlu ama bir 1 nokta veya virgule ilede kayit yapabiliyor
+
+
+Kodlara birazdan bakiyorum
+
+
+
+
+

@@ -1,0 +1,4 @@
+TEST TARIHI: 06/16/2022
+
+1 - Gezi konum bazen bulamiyor
+2 - Haritalar Solust Tus->Yakinimdaki Tesisler acilmiyor

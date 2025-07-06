@@ -1,0 +1,7 @@
+TEST TARIHI:06/10/2022
+
+REGISTER-------------------------------------------------------------------
+1 - Telefon onaylandiktan sonra 'Basarili' ekraninda kaliyor
+2 - Telefon onay sayfasi eksik.Kayit sirasinda girilen yanlis telelfon onay almadigi gibi duzeltilme ekranida yoktur
+
+NOT:Yukaridaki sorunlardan dolayi Test ilerleyememistir

@@ -1,0 +1,8 @@
+TEST TARiHI:5/12/2022
+
+1 - Profil->Siralamam sayfasi acilmiyor
+2 - Bildirim cok gec geliyor.
+Oneri = Bildirim secenekleri modeli yoktur(Ornegin bildirim almak istiyorum yada istemiyorum)
+Oneri = Bildirimleri silme secenegi yoktur
+
+

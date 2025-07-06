@@ -1,0 +1,9 @@
+TEST TARiHI:5/11/2022
+
+1 - Kupon kullanildiktan sonra kuponu kullan modeli kapanmiyor(Surekli tiklama ile sistemi mesgul etmeye neden olabilir)
+2 - "Atik Yag Talebi Olustur" talep sonrasi yonlendirme yok (Surekli tiklama ile sistemi mesgul etmeye neden olabilir)
+3  - Side Menu -> Destek -> Adres konumu yanlis
+4 - Bazen telefonun geri tusu kullanildiginda "Uygulama Aninda Durdu" mesaji veriyor ve ana sayfaya atiyor
+
+
+

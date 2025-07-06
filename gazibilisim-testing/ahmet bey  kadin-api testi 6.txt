@@ -1,0 +1,34 @@
+TEST TARIHI:05/27/2022
+
+1 - Bir firsata bir kez katilma hakki varken ikinci kupon istendiginde "Tanimli Kuponunuzu kullandiktan sonra yeni kupon alabilirsiniz" mesaji donuyor.
+2 - Tipler->Kampanyalar->Ekle siralama calismiyor
+3 - Tipler->Ekle ayni sira verilirse Etkinlikler,Haberler e Tesislerde de calismiyor
+4 - Yoneticiler birbirilerini ve kendilerini silebiliyor
+5 - Yonetici kendine ait tum bilgileri gucelleyebiliyor
+
+ONERILER
+FIRSATLAR------------------------------------------------
+1 - Sayfalarin genelinde durumlara gore filtreleme yok.(Ornegin:Aktifleri,Onaylananlar vs)
+2 - Bir firsat silindiginde ona ait kullanilan kupon silinmiyor.Eger bilgi amacli tutulacaksa Kullanilan Kuponun altinda Firsat yazilabilir.
+3 - Firsat->Ekle alanindaki tarih alani bulunmamali cunku Firsatin tarihi Hediye Kodlarinin tarihine bagli.
+4 - Tarihi gecen Firsatlar gozukmeye devam ediyor
+5 - Kullanici gecmisi ve activiteleri store edilmemis
+	NOT:Bir yonetici "Bana sitemizde hangi kullanici ne zaman ne yapmis" gibi bir rapor istese bu raporu olusturucak yapi bulunmamamktadir.
+
+GEZI-----------------------------------------------------
+6 - Gezi->Ekle sayfasinda konum zorunlu degil.Not: Gezi diye bir etkinlik varsa konumuda olmali.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

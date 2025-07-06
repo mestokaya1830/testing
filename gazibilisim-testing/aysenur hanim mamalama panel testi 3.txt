@@ -1,0 +1,7 @@
+TEST TARIHI: 06/14/2022
+
+YARALI HAYVAN BILDIRIMLERI
+1 - Hayvan Turu ve Detay ayni sutunda gozukuyor
+
+MAMA NOKTASI EKLE
+2 - Ad alani 'gecersiz ozel karekter' mesaji nedeiyle kayit yapmiyor

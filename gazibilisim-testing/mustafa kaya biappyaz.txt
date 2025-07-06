@@ -1,0 +1,17 @@
+TEST TARIHI:3/25/2022
+
+Console Hatasi Jquery deprecated(Extra plugin cdn  yuklenmesi gerekiyor)
+Genel----------------
+1 - webmail.biappyaz tanimli degil akillikentgaziantep@gmail.com yerine kullanilacakmis
+
+BASVURU FORMU-----------------------------------
+2 - Adres min kontrolu yok
+3 - Dogum tarihikontrolu yok (bugun olabiliyor)
+4 - Ad Soyad min-max kontrolu yok
+
+FOOTER---------------------------------------------
+5 - Logo'ya link verilmemis
+
+IYILESTIRME
+6 - Katilimcilar filtrelendiginde kritere uygun katilimci yoksa ekrana mesaj verilebilir
+7 - Detaylar bolumunde iconlara title tanimli degil

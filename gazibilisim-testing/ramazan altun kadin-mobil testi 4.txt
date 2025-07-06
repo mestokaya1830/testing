@@ -1,0 +1,4 @@
+TEST TARIHI: 05/16/2022
+
+1 - Salla kazan bazen calismiyor ya donuyor yada "Suan hizmet veremiyoruz" mesaji donuyor devaminda button tepki vermiyor
+

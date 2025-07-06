@@ -1,0 +1,71 @@
+
+TEST TARIHI:06/09/2022
+
+SPIKE----------------------------------------------------------------------------------
+Spike Test 1
+duration: '30s', target:20
+duration: '1m30s', target:10
+duration: '20s', target:0
+Total 2629 complete and 0 interrupted iterations
+
+
+Spike Test 2
+duration: '30s', target:50
+duration: '1m30s', target:100
+duration: '20s', target:0
+Total 923 complete and 0 interrupted iterations
+
+
+Spike Test 3
+duration: '30s', target:100
+duration: '1m30s', target:1000
+duration: '20s', target:0
+Total 1711 complete and 0 interrupted iterations
+
+SPIKE MULTIPLE PAGES------------------------------------------------------------------------------------
+duration: '30s', target:25
+duration: '1m', target:50
+duration: '20s', target:0
+Total 870 complete and 0 interrupted iterations
+
+STRESS-------------------------------------------------------------------------------------------
+Stress Test 1 
+duration: '10s', target:500
+Total 998 complete and 0 interrupted iterations
+Avg Request Duration = 3.25s
+Max Request Duration = 7.78s
+
+
+Stress Testi 2
+duration: '10s', target:1000
+Total 1254 complete and 73 interrupted iterations
+Avg Request Duration = 2.94s
+Max Request Duration = 9.97s
+
+
+Stress Testi 3
+duration: '30s', target:1000
+Total  2558 complete and 79 interrupted iterations
+Avg Request Duration = 3.79s
+Max Request Duration = 9.39s
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

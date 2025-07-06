@@ -1,0 +1,81 @@
+Test Tarihi:3/23/2022
+Konsolde her sayfada hatalar var
+LOGIN------------------------------------------
+1 - Sifre sifirlama yoktur
+2 - Email format ve min-max kontrolu yoktur
+3 - Sifre max kontrolu yoktur
+
+ADMIN-----------------------------------------------
+->Anasayfa-header
+4 - Sag taraftaki Admin Menu calismiyor
+->Anasayfa
+5 - Filtrele Bitis Tarihi Baslangic Tarihinden once olabiliyor
+6 - Filtreleme sonrasi sayfa yenilendiginde filtre devre disi kalmiyor
+
+TOPLANTILAR--------------------------------------------------------------
+7 - Talep Eden selectbox ayni degeri birden fazla barindiriyor
+(Ornegin 2 Adet Ismail Unal var)
+oneri: ya burasi benzersiz olmali yada bir ayirici key kullanilmali
+8 - Filtreleme sonrasi sayfa yenilendiginde filtre devre disi kalmiyor
+9 - Filtrele Bitis Tarihi Baslangic Tarihinden once olabiliyor 
+NOT - Sayfalama sonraki buton calismiyor hata
+Trying to get property 'id' of non-object (View: /var/www/vhosts/edb.gaziantep.bel.tr/httpdocs/resources/views/backend/user/modal-info.blade.php)
+
+KATEGORILER--------------------------------------------------------------
+->Kategori Ekle
+10 - Arama yok
+11 - Kategori Ad alani min kontrolu yok
+12 - Kategori Ad alani unique degil(Ayni kategori 1 den fazla eklenebiliyor)
+
+->Kategori Duzenle
+13 - Kategori Ad alani min kontrolu yok
+14 - Alt Kategori Ad alani unique degil(Ayni kategori 1 den fazla eklenebiliyor)
+
+TALEPLER-----------------------------------------------
+15 - Sayfa acilmiyor sql hatasi
+Trying to get property 'name' of non-object (View: /var/www/vhosts/edb.gaziantep.bel.tr/httpdocs/resources/views/backend/demand/all.blade.php)
+
+VATANDASLAR------------------------------------------------
+16 - Arama yok
+->Kullanici Ekle
+17 - Ad Soyad alani min kontrolu yok
+18 - Telefon string aliyor ve min kontrolu yok
+19 - Email alani format kontrolu yok
+20 - TC string aliyor ve TC Dogrulama kontrol yok ve min kontrolu yok
+21 - Dogum Tarihi kontrolu yok (Dogum Tarihi Bugun olabiliyor)
+22 - Kayit sonrasi mesaj donmuyor
+23 - Kayit sonrasi Admin sayfasina yonlediriyor
+24 - Evlilik Tarihi ileriye donuk olabiliyor
+25 - Silme sonrasi yonlendirme yanlis yere yapiliyor
+
+->Kullanici Duzenle
+26 - Ad Soyad alani min kontrolu yok
+27 - Telefon string aliyor ve min kontrolu yok
+28 - Email alani format kontrolu yok
+29 - TC string aliyor ve TC Dogrulama kontrol yok ve min kontrolu yok
+30 - Dogum Tarihi kontrolu yok (Dogum Tarihi Bugun olabiliyor)
+31 - Kayit sonrasi mesaj donmuyor
+
+ADMINLER----------------------------------------------
+32 - Ad Soyad alani min kontrolu yok
+33 - Telefon string aliyor ve min kontrolu yok
+34 - Email alani format kontrolu yok
+35 - TC string aliyor ve TC Dogrulama kontrol yok ve min kontrolu yok
+36 - Dogum Tarihi kontrolu yok (Dogum Tarihi Bugun olabiliyor)
+37 - Kayit sonrasi mesaj donmuyor
+38 - Duzenleme butonu yok
+39 - Silme butonu yok
+40 - Detay butonu yok
+
+
+BILDIRIMLER---------------------------
+->Bildirim gonder
+41 - Min kontrolu yok
+
+AYARLAR-------------------------------------------
+42 - Bildirim - Doğum Günü Mesajı min kontrolu yok
+43 - Bildirim - Evlilik Yıldönümü Mesajı min kontrolu yok
+44 - Panik Numarası string aliyor ve min kontrolu yok
+
+
+

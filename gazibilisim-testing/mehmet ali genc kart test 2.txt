@@ -1,0 +1,111 @@
+Login Sayfasi -----------------------------------------------------------------
+1 - Email kontrolu yok
+
+Admin Panel-------------------------------------------------------------------
+2 -Arama calismiyor
+
+Admin Menu--------------------------------------------------------------------
+3 - Arama calismiyor
+
+Admin Profil Sayfasi-----------------------------------------------------------
+2 - Sifre degistirme calismiyor
+3 - Sifre degistirmeye zorluyor ornegin ben sadece ismi degistirmek istiyorum yeni sifre alani bos olamaz veriyor
+4 - Email kontrolu yok
+5 - Sifre uyumlulugu kontrolu yok
+
+KAMPANYALAR-------------------------------------------------------
+-> Yeni Kampanya Ekle Sayfasi
+6 - Baslik
+Kampanya Basligi
+Kisa Aciklama 
+alanlari ,,,,,,, boyle kayit yapabiliyor
+7 - Max kontrolu yok 500 hatasi
+8 - Yayin Tarihi geriye donuk alabiliyor
+ 
+-> Yeni Kampanya Duzenle Sayfasi calismiyor
+9 - ,,,,,,, boyle duzenle yapabiliyor
+
+HEDIYE KODLARI----------------------------------------------------
+10 - Arama calismiyor
+11 - Ekle ve Duzenle sayfasinda Kod string aliyor
+
+ETKINLIKLER-----------------------------------------------------------
+12 - Yeni etkilink ekleme sayfasinda baslik, aciklama ve detay alanlari ,,,, olarak kayit yapabiliyor
+
+HABERLER----------------------------------------------------------------
+13 - Yeni haber ekleme sayfasinda baslik,,,,, olarak kayit yapabiliyor
+14 - Haber duzenleme sayfasinda baslik,,,,, olarak kayit yapabiliyor
+
+MEKANLAR-----------------------------------------------------------------
+-> Yeni Mekan Ekle Sayfasi
+15 - Baslik ve diger alanlar ,,, kayit yapiyor
+16 - Adres ve aciklama gibi alanlar 3 karekter ile kayit yapabiliyor
+
+-> Mekan Duzenle Sayfasi
+17 - Baslik ve diger alanlar ,,, kayit yapiyor
+16 - Adres ve aciklama gibi alanlar 3 karekter ile kayit yapabiliyor
+
+HEDIYELERE---------------------------------------------------------
+18 - Baslik ve diger alanlar ,,, kayit yapiyor
+19 - Duzenle Baslik ve diger alanlar ,,, guncelleme yapiyor
+20 - Hediye Talepleri karekter ve girdi kontrolu yok
+21 - Hediye Talepleri sil butonu calismiyor Kayit bulunamadi hatasi
+
+FIRMALAR------------------------------------------------------------------
+22 - Baslik ve diger alanlar ,,, kayit yapiyor
+FIRMALARA
+22 - Baslik ve diger alanlar ,,, kayit yapiyor
+23 - Detay sutunu yok
+
+UYELERE--------------------------------------------------
+24 - Ekle sayfasi TC kontrolu yok
+25 - Duzenle TC kontrolu yok
+26 - Baslik ve diger alanlar ,,, kayit yapiyor
+27 - Ekle sayfasi sifre bolumu 12 karekter ile sinirlanmis
+
+BILDIRIM-------------------------------------------------
+28 - Baslik ve diger alanlar ,,, kayit yapiyor
+29 - Kayit sirasinda gecikme oluyor console.log da route.js?v=:10 Uncaught ReferenceError: system_settings is not defined hatasi
+
+UYGULAMALAR-----------------------------------------------------------
+30 - Arama calismiyor
+31 - Detay Max Kontrolu yok
+
+
+VIDEOLAR-------------------
+32 - Arama calismiyor
+33 - Baslik ve diger alanlar ,,, kayit yapiyor
+
+DUYURULAR--------------------------------------------------
+34 - Baslik ve diger alanlar ,,, kayit yapiyor
+
+TIPLER---------------------------------------------------------
+35 - ->Kampanyalar Baslik ,,, kayit yapiyor
+36 - ->Etkinlikler Baslik ,,, kayit yapiyor not bazi sirada sil butonu gorunmuyor
+37 - ->Haberler Baslik ,,, kayit yapiyor not bazi sirada sil butonu gorunmuyor
+38 - ->Mekanlar Baslik ,,, kayit yapiyor not bazi sirada sil butonu gorunmuyor
+
+
+AYARLAR->Yoneticiler---------------------------------------------
+39 - Sifre alani 12 karekterle sinirli
+40 - TC kontrolu yok
+
+BILGILER--------------------------------------------------------
+41 - Arama calismiyor
+42 - Adres ,,, kayit yapiyor
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,149 @@
+TEST TARIHI:3/29/2022
+
+ADMIN PANELI
+LOGIN------------------------------------------------------------
+1 - Email alani format kontrolu yok
+2 - Sifre sifirlama linki yok
+3 - Baslik link var ama calismiyor
+
+ANSAYFA----------------------------------------------------------
+4 - Baslik link var ama calismiyor
+5 - Sol menu arama calismiyor
+6 - Sag paneldeki Ana arama calismiyor ve Uyeler sayfasina gidiyor
+
+KAMPANYA---------------------------------------------------------
+->Kampanya Ekle
+7 - Aciklama alani min kontorlu yok
+8 - Detay bos aliyor
+9 - Kullanim siniri eksi aliyor(-0)gibi
+10 - Konum bos aliyor
+11 - Tarih geriye verilebiliyor
+
+->Kampanya Duzenle
+12 - Aciklama alani min kontorlu yok
+13 - Icerik bos aliyor
+14 - Kullanim siniri eksi aliyor(-0)gibi
+15 - Konum bos aliyor
+16 - Tarih geriye verilebiliyor
+
+->Hediye Kodlar
+17 - Arama calismiyor
+18 - Sag ustteki iconlara title verilmemis(Not:Ne ise yaradigi belirsiz)
+->Hediye Kod Ekle
+Not :Burdaki tekli kod ekleme kaldirilacakmis
+
+ETKINLIKER----------------------------------------------------
+->Etkinlik Ekle
+19 - Adres bos aliyor
+->Etkinlik Duzenle
+20 - Adres bos aliyor
+
+HABERLER------------------------------------------------------
+->Haber Ekle
+21 - Tarihi geriye verilebiliyor
+->Haber Duzenle
+22 - Tarihi geriye verilebiliyor
+
+MEKANLAR-----------------------------------------------------
+->Mekan Ekle
+23 - Tarih geriye verilebiliyor
+24 - Adres alaninda "Baslik Girmeniz Gerekiyor" uyarisi donuyor
+25 - Adres alani min kontrolu yok
+->Mekan Duzenle
+25 - Tarih geriye verilebiliyor
+26 - Adres alani min 3 olarak sinirlanmis
+
+HEDIYE-------------------------------------------------------
+->Hediye Ekle
+27 - Detay ve Puan alanlarina yanlis veri girildiginde Kayit yapmiyor ve geriye bir uyari dondurmuyor
+28 - Gorsel bos aliyor
+
+->Hediye Duzenle
+29 - Detay ve Puan alanlarina yanlis veri girildiginde Kayit yapmiyor ve geriye bir uyari dondurmuyor
+30 - Gorsel bos aliyor
+
+
+FIRMALAR------------------------------------------------------
+->Firma Ekle
+31 - Detay alani uyarisi "Aciklama alani bos biraklimaz" yazilmis
+32 - Adres alani min 3 ayarlanmis
+33 - Firma ismi unique degil
+34 - Email bos aliyor
+->Firma Duzenle
+35 - Detay alani bos aliyor
+36 - Adres alani min 3 ayarlanmis
+37 - Firma ismi unique degil
+38 - Email bos aliyor
+
+VIDEOLAR--------------------------------------------------------
+39 - Arama calismiyor
+
+UYELER----------------------------------------------------------
+->Uye Ekle
+40 - Ad alani min 4 ayarlanmis gibi mesaj veriyor("Ad alani 3 ten fazla olmalidir") oysa 3 olarak ayarlanmis
+41 - Dogum tarihi 2022 olabiliyor
+42 - TC kontrolu yok
+
+->Uye Duzenle
+40 - Ad alani min 4 ayarlanmis gibi mesaj veriyor("Ad alani 3 ten fazla olmalidir") oysa 3 olarak ayarlanmis
+41 - Dogum tarihi 2022 olabiliyor
+42 - TC kontrolu yok
+
+
+ULASIM TALEPLERI-------------------------------------------------
+43 - Tarih araligi Datatable hatasi(Manuel giris sonrasi)
+44 - Normal arama yok
+
+
+
+BILIRIMLER-------------------------------------------------------
+->Bildirim Ekle
+45 - Ekle butonu gec cevap veriyor "route.js" console hatasi ve "504 time out" browser hatasi
+46 - Mesaj alani 3 karekter aliyor
+
+UYGULAMALAR-------------------------------------------------------
+47 - Arama calismiyor
+->Uygulama Ekle
+48 - Ios ve Android linklerin uyarilari yanlis(Aciklama lani bos olamaz)
+49 - Ios ve Android link format kontrolu Http:// zorunlu olmayabilir (facebook.com) gecerli bir adrestir
+50 - Gorsel zorunlu degil
+
+->Uygulama Duzenle
+51 - Ios ve Android linklerin uyarilari yanlis(Aciklama lani bos olamaz)
+52 - Ios ve Android link format kontrolu yok(http://www.google) aliyor
+53 - Gorsel zorunlu degil
+
+
+DUYURULAR----------------------------------------------------------
+->Duyuru Ekle
+54 - Uyari mesajlari yanlis Ozet alani "Kisa Aciklama" icerik alani ise "Aciklama" olarak yazilmis
+55 - Detay ve aciklama min 3 olarak ayarlanmis
+->Duyuru Duzenle
+55 - Uyari mesajlari yanlis Ozet alani "Kisa Aciklama" icerik alani "Aciklama" olarak yazilmis
+56 - Icerik ve aciklama min 3 olarak ayarlanmis
+
+SOSYAL MEDYA HESAPLARI-----------------------------------------------
+57 - Kayit yapilmiyor 500 hatasi
+
+NEREDEN ELMAS KAZANIRIM----------------------------------------------
+->Ekle
+58 - Elmas sayisi eksi deger aliyor
+
+AYARLAR-------------------------------------------------------------
+->Yonetici Ekle
+59 - TC kontrolu yok
+
+->Yonetici Duzenle
+60 - TC kontrolu yok
+
+
+
+
+
+
+
+
+
+
+
+

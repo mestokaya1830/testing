@@ -1,0 +1,29 @@
+1 = Frontend
+	1 = Form Test (Manually or Automation with Javascript)
+	2 = UX & UI Test (Product Quality)
+
+2 = Backend
+	1 = Laravel Feature Test
+	2 = Laravel Unit Test
+	3 = Moduler Test
+	4 = Github Test Workflow Automation
+	5 = Github Linter Workflow Automation
+
+3 = Performance Test (with Jmeter or K6)
+	1 = Post Test
+	2 = Spike Test
+	3 = Stress Test
+	4 = Thresholds Test
+	5 = Matrics Test
+	6 = Endpoint Test
+	7 = Delete Test
+
+
+Security Features
+	1 = Secure Hosting  //Devops
+	2 = Latest Php Version //Developer
+	3 = Protecting from SQL injection //Developer
+	4 = Protecting from Cross-Site Request Forgery (CSRF) //Developer
+	5 = Protection from XSS or Cross-site Scripting //Developer
+	6 = HTTP is not secure; use HTTPS instead //Devops
+	7 = Use Laravel Purifier //Developer

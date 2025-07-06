@@ -1,0 +1,23 @@
+TEST TARIHI:3/29/2022
+Mobil Test
+
+1 - Video izlenmeden elmas kazaniliyor
+2 - Uygulamalarda "bi bilet" indir linki google anasayfasina yonlediriliyor
+3 - Ulasim Binis Tanimla sayfasindaki Kart numara alani 10 haneli
+4 - Gorus ve Onerileriniz sayfasinda Email geri bilidirimi yok(Basarili veya hatali)
+5 - Biten etkinliklerin yayini devam ediyor
+6 - Biten etkinliklerede Katil butonu yada Etkinlikteyim butonu aktif
+7 - Ayni tarihlerdeki etkinlikler icin "Etkinlikteyim" butonuna tikadigimda, birisinde "Etkinlik katiliminiz bulunamadi" bir digerinde ise
+"Etkinlik Zaman Araliginda Degilsiniz" mesaji donuyor.
+8 - Yakinindaki Tesisler sayfasinda 2,5 km ve uzeri alanlari gosteriyor(Hata mi yoksa boylemi belirlenmis bilmiyorum)
+9 - Kupon aldiktan sonra "Kuponu Al" butonu aktif
+10 - Telefonun geri tusu aligilamiyor
+11 - Konumlarin toplami ile Kategorilere  gore sayilari ayni degil
+12 - Sayfa yenileme calismiyor
+13 - Hediye kazanma kosullari ile ilgili yeterli aciklama yoktur
+14 - Konumlar sekmesinin performansi cok dusuk
+15 - Bana Ozel->Profilim sayfasinda "referans kodunuza ulasilamadi" ibaresi yer aliyor
+
+NOT Etkinlik (veya Test verileri) olmadigi icin asagidaki testler yapilamamistir
+1 - Etkinliklere Katil
+2 - Etkinlik Konumlarinin Dogrulugu

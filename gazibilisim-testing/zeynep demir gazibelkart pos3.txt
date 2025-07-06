@@ -1,0 +1,8 @@
+TEST TARIHI: 05/17/2022
+
+1 - Iade sonrasi musteri bakiyesi musteri nushasinda gozukmuyor
+
+Yukaridaki durum Ismail Bey tarafindan bypass edilmistir.
+
+Bu sonuca gore uygulama temizdir.
+                                     

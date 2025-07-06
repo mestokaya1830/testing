@@ -1,0 +1,16 @@
+TEST TARHIHI: 06/010/2022
+MAMA KABI DOLDUR
+Sayfa acilmiyor 
+Attempt to read property "name" on null (View: /var/www/vhosts/mama.gaziantepbilisim.com.tr/httpdocs/resources/views/backend/feeding/all.blade.php)
+
+KULLANICILAR----------------------------------------------------------------------------
+Kullanici Ekle ->
+1 - Ad alani min 4 olarak ayarlanmis max ise kontrol edilmemis
+2 - Kullanici kendini ve herkesi silebiliyor
+3 - Dogum Tarihi yas kontrolu yok
+4 - Email kontrolu yok ornegin(test@test.com55555555555555555555555555555555)gibi
+5 - Sifre alani 8 karekter ile sinirli(varsayilan 100 olmali)
+
+PROFIL------------------------------------
+7 - Email kontrolu yok ornegin(test@test.com55555555555555555555555555555555)gibi
+8 - Sifre alani 8 karekter ile sinirli(varsayilan 100 olmali)

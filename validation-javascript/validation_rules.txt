@@ -1,0 +1,89 @@
+Frontend ve Backend icin validation kurallari
+Not: Alanların input tipi destekledigi sürece Title ve Placeholder yoksa Label kullanılmalı
+
+1 Ad,Soyad,Şehir,Ülke,Bölge,Kıta,Ürün vs gibi alanlar-------------
+  tipi:text
+  min:2
+  max:50
+
+2 Şifre alanı-----------------------------------------------------
+  tipi:password
+  min:6
+  max:100
+
+3 Açıklama ve benzeri alanlar-------------------------------------
+  tipi:textarea
+  min:30
+  max:1000
+  NOT:Hazir editor kullaniminda 50000 karekter verilmelidir(Hazir editor html taglarinida karketer olarak kabul ediyor)
+
+4 Numara alanı----------------------------------------------------
+  tipi numeric
+  min:0
+  max:ihtiyaca gore olmali
+  string ve baska karekter almamalı
+
+5 Tarih alanı-----------------------------------------------------
+  tipi:date yada datetime_locale,
+  min:ihtiyaca gore olmali
+  max:ihtiyaca gore olmali
+
+6 Telefon alanı---------------------------------------------------
+  tipi:numeric, 
+  min:10,
+  max:10
+
+7 Mesaj alanı-----------------------------------------------------
+  tipi:textarea
+  min:30,
+  max:1000
+
+8 Email alanı-----------------------------------------------------
+  tipi:email,
+  min:10
+  max:100
+
+9 Adres alanı-----------------------------------------------------
+  tipi:textarea
+  min:20
+  max:255
+
+10 TC alanı-------------------------------------------------------
+  tipi:numeric
+  min:11
+  max:11
+
+11 Cinsiyet, Medeni Durum gibi birden çok seçenekli alanlar-------
+  tipi:text, Radio, Checkbox, Selectbox
+  Textbox kullanma durumunda
+  min:5
+  max:5
+
+12 Cocuk Sayisi alanı---------------------------------------------
+  Tipi:numeric veya Selectbox
+  Textbox kullanma durumunda
+  min:0
+  max:10
+
+13 Resim alanı----------------------------------------------------
+  tipi:file
+  min:dosya boyutu
+  max:dosya boyutu
+  type:jpg veya png
+
+14 Video alanı----------------------------------------------------
+  tipi:file
+  min:dosya boyutu
+  max:dosya boyutu
+  type:mp4
+
+15 Audio alanı----------------------------------------------------
+  tipi:file
+  min:dosya boyutu
+  max:dosya boyutu
+  type:mp3 veya wav
+
+16 Firma, Unvan gibi alanlar--------------------------------------
+  tipi:text
+  min:3
+  max:100

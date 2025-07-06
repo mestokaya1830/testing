@@ -1,0 +1,82 @@
+Market Kayit Sayfasi-----------------------------------------------
+1 - Vergi No alani max 25 degere ayarlanmis yani 26 giremezsiniz ornegin 23234433 girilemez
+2 - Telefon alani min ve max degerleri belirtilmemis ve format kontrolu yok
+3 - Firma Web Adresi alani format kontrolu yok
+4 - Ve diger alanlarin max kontrolu yok
+5 - 	-> Firma Yetkili Adi
+	-> Address
+	-> Web SIte Adresi
+	-> Sifre alanlari max kontrolu yok
+
+6 - Firma Yeni Ilan Ekle sayfasi tarih alani bugunden onceyi aliyor
+7 - Firma Ilani onaylanmadan Markette yayinlaniyor
+
+ADMIN PANEL-----------------------------------
+8 - Kullanici unvan alni bis oldugunda "isim bulunamadi" mesaji gosteriliyor
+9 - Sosya iconlar calismiyor
+10 - Excel Yuklemesi Yukle butonu calismiyor
+	 hata -> No ReaderType or WriterType could be detected. Make sure you either pass a valid extension to the filename or pass an explicit type.
+
+
+SISTEM------------------------------------------------------
+->Tum Firmalar
+11 - Sayfa sayisi nda Ikinci sayfa Datatable hatasi
+12 - Yayina Al ve Yayindan Cikar calismiyor
+
+ONAY ISTEK --------------------------------------------------
+13 - Uyelik Dogrulama alanlari Text-Wrap yok bundan dolayi tasarim saga kayip ekran disina cikiyor
+
+ILAN ISLEMLERI----------------------------------------------------
+->Onay bekleyen ilanlar
+14 - Ilana red verilmesine ragmen market te gozukuyor
+
+UYE ISLEMLERI-------------------------------------------------------
+->Kullanici Bilgileri
+15 - Email format kontrolu yok
+16 - Emil alani bos gidince donen hata
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'phone' cannot be null 
+(SQL: update `users` set `phone` = ?, `users`.`updated_at` = 2022-03-15 10:16:34 where `id` = 2)
+
+17 - Telefon alani min ve max kontrolu yok
+18 - Telefon alani bos gidince donen hata
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'email' cannot be null 
+(SQL: update `users` set `phone` = vvfvv, `email` = ?, `users`.`updated_at` = 2022-03-15 10:17:24 where `id` = 2)
+
+19 - Unvan bos aliyor
+
+KATEGORILER------------------------------------------------
+->Yeni Kategori Ekle
+20 - Firma Hakkinda alanlari min ve max kontrolu yok
+->Kategoriler->Duzenle-
+21 - Firma Hakkinda alanlari min ve max kontrolu yok
+
+
+
+FIRMA PANELI--------------------------------------------
+ILAN ISLEMLERI
+->Yeni Ilan
+22 - Alanlarin hepsinde min ve max kontrolu yok
+23 - Tarihi geriye donuk alabiliyor
+->Ilanlar->Duzenle
+24 - Alanlarin hepsinde min ve max kontrolu yok donen hata
+The GET method is not supported for this route. Supported methods: POST.
+25 - Baslat ve Durdur calismiyor
+
+UYE ISLEMLERI---------------------------------
+->Kullanici bilgileri bos verince donen hata
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'name' cannot be null 
+(SQL: update `users` set `name` = ?, `email` = ?, `users`.`updated_at` = 2022-03-15 10:38:59 where `id` = 35)
+
+FIRMA ISLEMLERI-------------------------------------------
+->Firma Listesi->Duzenle
+26 - Ad haric hepsi bos aliyor
+27 - Ad bis verilence donen hata 
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'ad' cannot be null 
+(SQL: update `firms` set `ad` = ?, `firms`.`updated_at` = 2022-03-15 10:41:37 where `id` = 43)
+28 - Market sil calismiyor
+->Firma Ekle
+29 - Ad alani bos olunca donen hata
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'ad' cannot be null 
+(SQL: insert into `firms` (`ad`, `vergi`, `telefon`, `eposta`, `adres`, `website`, `kategori`, `ulke`, `sehir`, `postakodu`, `updated_at`, `created_at`) 
+values (?, Gaziantep Province, +905322088744, mesto1830@outlook.com, Yeni mah.Gaffurbaba Sk No:4, ?, ?, Afganistan, ?, ?, 2022-03-15 10:44:32, 2022-03-15 10:44:32))
+

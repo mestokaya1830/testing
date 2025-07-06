@@ -1,0 +1,10 @@
+TEST TARIHI: 05/25/2022
+
+POS---------------------------------------------------------------------------------------------------------
+1 - Login Sayfasinda Kullanici Adi alani min degeri 2 olmali(Ornegin adi Su, Ay vs olanlar giris yapamaz.
+2 - Musteriye iade sonrasi bakiye bilgisi verilmiyor(Bu cok onemli ornegin Bilet ile yapilan bir satista iade olursa bakiye bilgisi nerden alinacak?)
+3 - Bilet icin bakiye sorgulama yok(Bilet ile yapilan bir satista iade olursa bakiye nasil ogrenilecek)
+4 - Rapor bir onceki gunude aliyor
+
+MOBIL-----------------------------------------------------------------
+1 - Mobilde harcamalar listesinde ve ana sayfadaki son harcamalarda saat belirtilmiyor                                      

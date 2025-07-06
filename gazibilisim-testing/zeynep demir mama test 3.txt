@@ -1,0 +1,9 @@
+TEST TARIHI:06/14/2022
+
+1 - Mama Kaplari Haritada Ust Menu(Bos, Yarim,Dolu) filtreleme calismiyor
+2 - Yarali Hayvan Bildirim alanlarinin min kontrolu yok
+3 - Genel Siralama sayfasinda geri tusu calismiyor
+4 - Mama Kaplari sayfasinda geri tusu calismiyor
+5 - Kare Kodunu ekrandan okuttugumda iselm kabul edilmiyor ama mesaj 'Islem Basarili' olarak donuyor
+
+Not:Dolu Mama Kapi kontrolu nasil saglaniyor?
